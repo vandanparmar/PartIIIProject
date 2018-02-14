@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 import pareto, cobra,cobra.test
 
 
-model = load_model('NN_succinate.h5')
+model = load_model('NN_succinate_2.h5')
 
 h_p = cobra.io.load_json_model('iJO1366.json')
 
@@ -31,7 +31,7 @@ print(np.shape(weights))
 max_set = set()
 
 for i,weight_set in enumerate(weights):
-	if(i==6 or i==8):
+	if(i==0 or i==9):
 		maxes = list(np.argpartition(weight_set,-10)[-10:])
 		max_set.update(maxes)
 		print(i,maxes, weight_set[maxes])
@@ -45,9 +45,14 @@ fig, (ax1,ax2) = plt.subplots(nrows=2)
 
 ax1.imshow(hidden_layer_output.T,aspect='auto')
 ax2.imshow(output_layer_output.T,aspect='auto')
+fig.savefig('NN_outputs_succ.png')
+fig.savefig('NN_outputs_succ.eps')
 plt.show()
 
 print(sorted(max_set))
 
-plt.imshow(X.T[list(max_set)],aspect='auto')
+fig,ax = plt.subplots(nrows=1)
+ax.imshow(X.T[list(max_set)],aspect='auto')
+fig.savefig('express_part_succ.png')
+fig.savefig('express_part_succ.eps')
 plt.show()

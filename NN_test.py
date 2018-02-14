@@ -1,11 +1,11 @@
 import json
+import kink_finder
 from keras.models import Model
 from keras.layers import Input, Dense, Flatten, Dropout
 from keras.optimizers import Adam
 from keras.initializers import RandomUniform
 import numpy as np
 from random import shuffle
-
 
 def get_model(shape):
 
@@ -30,6 +30,12 @@ def get_model(shape):
 
 
 data = json.load(open('data_big_succinate.json'))
+
+y_plot = np.array(list(map(lambda i : i['obj1'],data)))
+x_plot = np.array(list(map(lambda i : i['obj2'],data)))
+
+x_lim = kink_finder.get_kink_point(x_plot,y_plot)[0]
+
 unshuffled = []
 for item in data:
 	unshuffled.append(item)
@@ -40,8 +46,6 @@ shuffle(data)
 gene_size = len(data[0]['gene_set'])
 
 model = get_model(gene_size)
-
-x_lim = 73
 
 X = np.array(list(map(lambda i : i['gene_set'],data)))
 Y = np.array(list(map(lambda i : [0,1] if i['obj2']>x_lim else [1,0], data)))
@@ -69,6 +73,6 @@ model.fit(X_train, y_train, batch_size=batch_size, epochs=nb_epoch,verbose=1, va
 
 score = model.evaluate(X_test, y_test, verbose=1)
 
-model.save('NN_succinate.h5')
+model.save('NN_succinate_2.h5')
 
 print("Accuracy:", score[1])
