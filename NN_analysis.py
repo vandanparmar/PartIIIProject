@@ -40,7 +40,6 @@ for i,weight_set in enumerate(weights):
 			for reaction in h_p.genes[i].reactions:
 				print(reaction)
 
-
 fig, (ax1,ax2) = plt.subplots(nrows=2)
 
 ax1.imshow(hidden_layer_output.T,aspect='auto')
