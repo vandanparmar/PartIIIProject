@@ -9,9 +9,7 @@ def piecewise_linear(x, x0, y0, k1, k2):
 def get_kink_point(x,y):
 	grad = (y[0]-y[-1])/(x[0]-x[-1])
 	p,e = optimize.curve_fit(f=piecewise_linear,xdata = x,ydata = y,p0=[np.mean(x),np.mean(y),grad,grad])
-	print(p)
-	print(e)
-	return p
+	return p #x0,y0,k1,k2
 
 if __name__ == '__main__':
 	data = json.load(open('data_big.json'))
