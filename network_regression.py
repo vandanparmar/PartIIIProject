@@ -25,13 +25,13 @@ def S_from_W(W):
 	S = np.matmul(D,np.matmul(W,D))
 	return S
 
-data = json.load(open('data_big_succinate.json'))
+data = json.load(open('data_hp_succ.json'))
 ys = np.array(list(map(lambda i : i['obj1'],data)))
 xs = np.array(list(map(lambda i : i['obj2'],data)))
 genes = np.array(list(map(lambda i : i['gene_set'],data)))
 
 lambd = 1.0
-alpha = 0.5
+alpha = 0.1
 
 W = gene_co_express(genes,95)
 A = np.ceil(W)
@@ -42,12 +42,11 @@ S = S_from_W(W)
 def regress(genes,lambd,alpha,xs,ys,left,S):
 
 	cost = 0
-
 	n_genes = np.shape(genes)[1]
-
+	constr = []
 
 	beta = cvxpy.Variable(n_genes)
-	constr = [cvxpy.norm(beta)<=1]
+	constr.append(cvxpy.norm(beta)<=1)
 
 
 
@@ -93,9 +92,9 @@ beta2 = regress(genes,lambd,alpha,xs,ys,False,S).flatten()
 
 
 to_save = {'beta1':beta1.tolist(),'beta2':beta2.tolist(),'A':A.tolist()}
-
-with open('networks2.json', 'w') as outfile:
-    json.dump(to_save, outfile)
+data['network'] = to_save
+with open('network_hp_succ.json', 'w') as outfile:
+    json.dump(data, outfile)
 
 print(np.shape(beta1))
 

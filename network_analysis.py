@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import cobra
 
 
-data = json.load(open('networks2.json'))
+data = json.load(open('network_hp_succ.json'))
 
 h_p = cobra.io.load_json_model('iJO1366.json')
 

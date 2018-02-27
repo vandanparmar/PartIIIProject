@@ -2,8 +2,8 @@ import pareto, cobra,cobra.test
 import matplotlib.pyplot as plt 
 import numpy as np
 import json
-
-h_p = cobra.io.load_json_model('h_pylori.json')
+model_str = 'h_pylori.json'
+h_p = cobra.io.load_json_model(model_str)
 
 print(h_p.reactions)
 # obj1_str = 'BIOMASS_Ec_iJO1366_WT_53p95M'
@@ -35,11 +35,14 @@ print(obj2)
 
 # pareto(generations,pop_size,model, obj1, obj2, cores=0)
 
-pops, vals, pareto = pareto.pareto(30,500,h_p,obj1,obj2)
+to_use_obj1 = obj1
+to_use_obj2 = obj2
+
+pops, vals, pareto = pareto.pareto(30,500,h_p,to_use_obj1,to_use_obj2)
 
 
 
-to_save = [{'obj1': p.fitness.values[0], 'obj2':p.fitness.values[1],'gene_set': list(p)} for p in pareto]
+to_save = {'obj1_str': str(to_use_obj1), 'obj2_str': str(to_use_obj2), 'model' : model_str,'pareto': [{'obj1': p.fitness.values[0], 'obj2':p.fitness.values[1],'gene_set': list(p)} for p in pareto]}
 
 with open('data_hp_succ.json', 'w') as outfile:
     json.dump(to_save, outfile)
