@@ -12,7 +12,7 @@ def get_kink_point(x,y):
 	return p #x0,y0,k1,k2
 
 if __name__ == '__main__':
-	data = json.load(open('data_big.json'))
+	data = json.load(open('data_hp_succ.json'))
 
 	y_plot = np.array(list(map(lambda i : i['obj1'],data)))
 	x_plot = np.array(list(map(lambda i : i['obj2'],data)))
