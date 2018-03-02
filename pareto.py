@@ -156,7 +156,6 @@ def pareto(generations,pop_size,model, obj1, obj2, cores=0):
 	nsga2_holder = base.Toolbox()
 	nsga2_holder = create_algo_holder(nsga2_holder,model,obj1,obj2,cores)
 
-	##### stats if you want them #####
 	stats_fit = tools.Statistics(key=lambda ind: ind.fitness.values)
 	stats_size = tools.Statistics(key=len)
 
