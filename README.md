@@ -4,15 +4,15 @@ University of Cambridge Physics Masters Project with Pietro Lio', looking at mul
 
 Analysis of generated Pareto fronts using neural networks and network regression.
 
-#Pareto Front Generation
+## Pareto Front Generation
 - pareto.py
 - pareto_test.py
 
-#Neural Nets
+## Neural Nets
 - NN_test.py
 - NN_analysis.py
 
-#Network Regression
+## Network Regression
 - network_regression.py
 - network_explore.py
 - network_analysis.py
