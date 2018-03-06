@@ -142,8 +142,7 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 
 
 
-def pareto(generations,pop_size,model, obj1, obj2, cores=0):
-	
+def pareto(generations,pop_size,model, obj1, obj2, batch = False,cores=0):
 	creator.create("FitnessMax",base.Fitness,weights=(1.0,1.0))
 	creator.create("Individual",list, fitness=creator.FitnessMax)
 
@@ -210,7 +209,11 @@ def pareto(generations,pop_size,model, obj1, obj2, cores=0):
 		volume = 0
 		eval_time = time.time()-t_start
 		logbook.record(gen=gen, hypervolume=volume,time=eval_time, **record)
-		print(logbook.stream)
+		if batch is False:
+			print(logbook.stream)
+		else:
+			batch(logbook.stream)
+
 
 		pareto.update(pop)
 		val = list(zip(*[p.fitness.values for p in pareto]))

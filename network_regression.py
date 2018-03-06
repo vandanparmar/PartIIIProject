@@ -39,29 +39,26 @@ def regress(genes,lambd,alpha,xs,ys,left,S):
 	else:
 		filtered_genes = genes[ys<y0]
 
-	print(x0,y0)
-	print(n_genes)
+	# print(n_genes)
 	for i,(x,y,gene_set) in enumerate(zip(xs,ys,genes)):
 		cost += beta.T*gene_set
 
 	cost -= np.shape(filtered_genes)[0]*cvxpy.log_sum_exp(filtered_genes*beta)
-	cost -= lambd*alpha*cvxpy.bpower(cvxpy.norm(beta),2)
+	cost -= lambd*alpha*cvxpy.power(cvxpy.norm(beta),2)
 	cost -= lambd*(1-alpha)*cvxpy.quad_form(beta,S)
 
 	# print(cost)
 	prob = cvxpy.Problem(cvxpy.Maximize(cost),constr)
 	a = prob.solve(solver=cvxpy.SCS,eps=1e-5)
 
-	print(a)
-	print(beta.value)
-
 	return beta.value
 
 def add_network_regression(filename, lambd, alpha, cutoff):
 	data = json.load(open(filename))
-	ys = np.array(list(map(lambda i : i['obj1'],data)))
-	xs = np.array(list(map(lambda i : i['obj2'],data)))
-	genes = np.array(list(map(lambda i : i['gene_set'],data)))
+	pareto = data['pareto']
+	ys = np.array(list(map(lambda i : i['obj1'],pareto)))
+	xs = np.array(list(map(lambda i : i['obj2'],pareto)))
+	genes = np.array(list(map(lambda i : i['gene_set'],pareto)))
 	W = gene_co_express(genes,cutoff)
 	A = np.ceil(W)
 	S = S_from_W(W)
@@ -69,7 +66,7 @@ def add_network_regression(filename, lambd, alpha, cutoff):
 	beta2 = regress(genes,lambd,alpha,xs,ys,False,S).flatten()
 	to_save = {'beta1':beta1.tolist(),'beta2':beta2.tolist(),'A':A.tolist(),'S':S.tolist()}
 	data['network'] = to_save
-	with open('network_hp_succ.json', 'w') as outfile:
+	with open(filename, 'w') as outfile:
 	    json.dump(data, outfile)
 
 
