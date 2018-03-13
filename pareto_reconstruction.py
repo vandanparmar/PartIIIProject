@@ -55,18 +55,18 @@ def eval_pareto(model ,obj1 ,obj2 ,gene_set):
 	to_return = list(map(lambda i : evaluate(i, obj1, obj2, model, condts, lb, ub), gene_set))
 	return np.array(to_return)
 
-data = json.load(open('new_data/data_ecoli_o2.json'))
+data = json.load(open('new_data/data_hp_succ.json'))
 network = data['network']
 model_str = data['model']
 pareto_data = data['pareto']
 obj1_str = data['obj1_str']
 obj2_str = data['obj2_str']
 
-obj1_str = 'BIOMASS_Ec_iJO1366_WT_53p95M'
-obj2_str = 'EX_o2_e'
+# obj1_str = 'BIOMASS_Ec_iJO1366_WT_53p95M'
 
-# obj1_str = 'BIOMASS_HP_published'
-# obj2_str = 'ACt2r'
+obj1_str = 'BIOMASS_HP_published'
+obj2_str = 'SUCCt2r'
+# obj2_str = 'EX_o2_e'
 
 y_plot = np.array(list(map(lambda i : i['obj1'], pareto_data)))
 x_plot = np.array(list(map(lambda i : i['obj2'], pareto_data)))
