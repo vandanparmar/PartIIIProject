@@ -45,7 +45,7 @@ individuals = 200
 # cutoff = 70
 
 
-for obj1_str,obj2_str,model_str,filename in tqdm(list(zip(obj1_arr, obj2_arr, model_arr,filename_arr))):
+for obj1_str,obj2_str,model_str,filename in tqdm(list(zip(obj1_arr, obj2_arr, model_arr,filename_arr)),ascii=True):
 	###### Pareto ##########
 
 	model = cobra.io.load_json_model(model_str)
