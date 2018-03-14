@@ -1,0 +1,554 @@
+4HGLSD Glyoxylate Metabolism 4HGLSD
+A5PISO LPS Biosynthesis Arabinose-5-phosphate isomerase
+AAtr Transport AAtr
+ACACT1r Others Acetyl-CoA C-acetyltransferase
+ACACt2 Transport Acetoacetate transport via proton symport
+ACALDt Transport Acetaldehyde reversible transport
+ACCOAC Fatty Acid Synthesis Acetyl-CoA carboxylase
+ACKr Others Acetate kinase
+ACOATA Fatty Acid Synthesis Acetyl-CoA ACP transacylase
+ACONT TCA cycle Aconitate hydratase
+ACP1_FMN Riboflavin Metabolism Acid phosphatase (FMN)
+ACPS Pantothenate and CoA Biosynthesis Acyl Carrier Protein Synthase
+ACS Others Acetyl-CoA synthetase
+ACt2r Transport Acetate reversible transport via proton symport
+ADCL Folate Biosynthesis 4-aminobenzoate synthase
+ADD Purine metabolism Adenine deaminase
+ADEt2 Transport Adenine transport in via proton symport
+ADK1 ATP de novo Synthesis Adenylate kinase
+ADMDC Spermidine Biosynthesis Adenosylmethionine decarboxylase
+ADNUC Purine metabolism Adenosine hydrolase
+ADNt2 Transport Adenosine transport in via proton symport
+ADPT Salvage pathway of ATP Adenine phosphoribosyltransferase
+ADSK Others Adenylyl-sulfate kinase
+ADSL1r ATP de novo Synthesis Adenylsuccinate lyase
+ADSL2r IMP Synthesis Adenylosuccinate lyase
+ADSS ATP de novo Synthesis Adenylosuccinate synthase
+ADtr Transport Acetamide transport, extracellular 
+AGMHE LPS Biosynthesis - adphep ADP-D-glycero-D-manno-heptose epimerase
+AGMT Spermidine Biosynthesis Agmatinase
+AHCYSNS Others S-adenosylhomocysteine nucleosidase
+AHSERL2 Methionine Metabolism O acetylhomoserine  thiol  lyase
+AICART IMP Synthesis Phosphoribosylaminoimidazolecarboxamide formyltransferase
+AIRC2 IMP Synthesis Phosphoribosylaminoimidazole carboxylase
+AIRC3 IMP Synthesis Phosphoribosylaminoimidazole carboxylase (mutase rxn)
+AKGt2r Transport 2 oxoglutarate reversible transport via symport
+AKO TCA cycle AKO
+ALAALAr Peptidoglycan Biosynthesis D-alanine-D-alanine ligase (reversible)
+ALAD_L Alanine Metabolism L-alanine dehydrogenase
+ALAR Alanine Metabolism Alanine racemase
+ALAt2r Transport L alanine reversible transport via proton symport
+ALAt4 Transport Alanine-Sodium symporter
+ALCD2y Others Alcohol dehydrogenase (ethanol, NADP)
+AMAA Peptidoglycan Biosynthesis N-acetylmuramoyl-L-alanine amidase
+AMAOTr Biotin Biosynthesis Adenosylmethionine-8-amino-7-oxononanoate transaminase
+AMID2 Others Amidase
+AMID4 Others AMID4
+AMID5 Others AMID5
+AMMQT6 Menaquinone Biosynthesis AMMQT6
+ANPRT Tryptophan Biosynthesis Anthranilate phosphoribosyltransferase
+ANS Tryptophan Biosynthesis Anthranilate synthase
+ANS2 Chorismate Metabolism Anthranilate synthase 2
+AOXSr Biotin Biosynthesis 8-amino-7-oxononanoate synthase
+APRAUR Riboflavin Metabolism 5-amino-6-(5-phosphoribosylamino)uracil reductase
+ARGDC Spermidine Biosynthesis Arginine decarboxylase
+ARGN Urea Cycle Arginase
+ARGSL Urea Cycle Argininosuccinate lyase
+ARGSS Urea Cycle Argininosuccinate synthase
+ARGt2r Transport L arganine reversible transport via proton symport
+ASAD Aspartate Metabolism Aspartate-semialdehyde dehydrogenase
+ASNN Asparagine Metabolism L-asparaginase
+ASNS2 Asparagine Metabolism Asparagine synthetase
+ASNabc Transport L-asparagine transport via ABC system
+ASNt2r Transport L asparagine reversible transport via proton symport
+ASP1DC Pantothenate and CoA Biosynthesis Aspartate 1-decarboxylase
+ASPCT UTP/CTP de novo Synthesis Aspartate carbamoyltransferase
+ASPK Aspartate Metabolism Aspartate kinase
+ASPO2 Nicotinate Biosynthesis L-aspartate oxidase
+ASPT Aspartate Metabolism L-aspartase
+ASPTA Aspartate Metabolism Aspartate transaminase
+ASPt2r Transport L aspartate reversible transport via proton symport
+ATPS4r Respiratory chain ATP synthase (four protons for one ATP)
+BACCL Biotin Biosynthesis Biotin acetyl CoA carboxylase ligase
+BC10_new Respiratory chain BC10 new
+BIOMASS_HP_published Biomass and maintenance functions BiomassHP published
+BPNT Pantothenate and CoA Biosynthesis 3',5'-bisphosphate nucleotidase
+BTS2 Biotin Biosynthesis Biotin synthase (ala-L producing)
+C140SN Fatty Acid Synthesis Fatty acid biosynthesis (n-C14:0)
+C160SN Fatty Acid Synthesis Fatty acid biosynthesis (n-C16:0)
+C180SN Fatty Acid Synthesis C180SN
+C181SN Fatty Acid Synthesis Fatty acid biosynthesis (n-C18:1)
+C190cSN Fatty Acid Synthesis C190cSN
+CAT ROS Detoxification Catalase
+CBPS UTP/CTP de novo Synthesis Carbamoyl-phosphate synthase (glutamine-hydrolysing)
+CCP ROS Detoxification CCP
+CDAPPA_HP Glycerolipid Synthesis CDAPPA HP
+CDPMEK Isoprenoid Biosynthesis 4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol kinase
+CHCOAL Biotin Biosynthesis 6-carboxyhexanoate-CoA ligase
+CHORM Phenylalanine biosynthesis Chorismate mutase
+CHORS Chorismate Biosynthesis Chorismate synthase
+CLPNS_HP Glycerolipid Synthesis CLPNS HP
+CO2t Transport CO2 transporter via diffusion
+CPPPGO Heme biosynthesis Coproporphyrinogen oxidase (O2 required)
+CS TCA cycle Citrate synthase
+CTPS1 UTP/CTP de novo Synthesis CTP synthase  NH3 
+CYOO_HP Respiratory chain CYOO HP
+CYSS Methionine Metabolism Cysteine synthase
+CYSabc Transport L-cysteine transport via ABC system
+CYTDt2 Transport Cytidine transport in via proton symport
+CYTK1 Nucleotide Interconversion Cytidylate kinase (CMP)
+DAAD Alanine Metabolism D-Amino acid dehydrogenase
+DADK Nucleotide Interconversion Deoxyadenylate kinase
+DADNt2 Transport Deoxyadenosine transport in via proton symport
+DAGK_HP Glycerolipid Synthesis DAGK HP
+DALAt2r Transport D-alanine transport via proton symport
+DAPDC Lysine Biosynthesis Diaminopimelate decarboxylase
+DAPE Lysine Biosynthesis Diaminopimelate epimerase
+DASYN_HP Glycerolipid Synthesis DASYN HP
+DB4PS Riboflavin Metabolism 3,4-Dihydroxy-2-butanone-4-phosphate synthase
+DBTS Biotin Biosynthesis Dethiobiotin synthase
+DCTPD Nucleotide Interconversion DCTP deaminase
+DCTPD2 Nucleotide Interconversion DCTP deaminase
+DCYTt2 Transport Deoxycytidine transport in via proton symport
+DDPA Chorismate Biosynthesis 3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase
+DDPGA Glyoxylate Biosynthesis 2-dehydro-3-deoxy-phosphogluconate aldolase
+DGK1 Nucleotide Interconversion Deoxyguanylate kinase (dGMP:ATP)
+DHDPRy Lysine Biosynthesis Dihydrodipicolinate reductase (NADPH)
+DHDPS Lysine Biosynthesis Dihydrodipicolinate synthase
+DHFR Folate Biosynthesis Dihydrofolate reductase
+DHFS Folate Biosynthesis Dihydrofolate synthase
+DHNAOT2 Menaquinone Biosynthesis DHNAOT2
+DHNPA Folate Biosynthesis Dihydroneopterin aldolase
+DHORD3 UTP/CTP de novo Synthesis DHORD3
+DHORTS UTP/CTP de novo Synthesis Dihydroorotase
+DHPPDA Riboflavin Metabolism Diaminohydroxyphosphoribosylaminopyrimidine deaminase
+DHPS Folate Biosynthesis Dihydropteroate synthase
+DHPTDCs Others 4,5-dihydroxy-2,3-pentanedione cyclization (spontaneous)
+DHQS Chorismate Biosynthesis 3-dehydroquinate synthase
+DHQTi Chorismate Biosynthesis 3-dehydroquinate dehydratase, irreversible
+DKMPPD Methionine Salvage Pathway 2,3-diketo-5-methylthio-1-phosphopentane degradation reaction
+DMATT Others Dimethylallyltranstransferase
+DMPPS Isoprenoid Biosynthesis 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp)
+DM_amob_c Intracellular source/sink Sink needed to allow S-Adenosyl-4-methylthio-2-oxobutanoate to leave system
+DM_hmfurn_c Intracellular demand Sink needed to allow 4-hydroxy-5-methyl-3(2H)-furanone to leave system
+DNMPPA Folate Biosynthesis Dihydroneopterin monophosphate dephosphorylase
+DNTPPA Folate Biosynthesis Dihydroneopterin triphosphate pyrophosphatase
+DPCOAK Pantothenate and CoA Biosynthesis Dephospho-CoA kinase
+DPR Pantothenate and CoA Biosynthesis 2-dehydropantoate 2-reductase
+DSERt2 Transport D-serine transport via proton symport
+DTMPK Nucleotide Interconversion DTMP kinase
+DURIK1 Nucleotide Interconversion Deoxyuridine kinase (ATP:Deoxyuridine)
+DURIPP Nucleotide Interconversion Deoxyuridine phosphorylase
+DURIt2 Transport Deoxyuridine transport in via proton symport
+DUTPDP dTTP Biosynthesis DUTP diphosphatase
+DXPRIi Isoprenoid Biosynthesis 1-deoxy-D-xylulose reductoisomerase
+DXPS Isoprenoid Biosynthesis 1-deoxy-D-xylulose 5-phosphate synthase
+EDA Entner-Doudouroff Pathway 2-dehydro-3-deoxy-phosphogluconate aldolase
+EDD Entner-Doudouroff Pathway 6-phosphogluconate dehydratase
+EHGLAT Glyoxylate Biosynthesis L erythro 4 Hydroxyglutamate2 oxoglutarate aminotransferase
+ENO Glycolysis Enolase
+ETOHt2r Transport Ethanol reversible transport via proton symport
+EX_aa_e Extracellular exchange EX C01659 LPAREN e RPAREN 
+EX_ac_e Extracellular exchange Acetate exchange
+EX_acac_e Extracellular exchange Acetoacetate exchange
+EX_acald_e Extracellular exchange Acetaldehyde exchange
+EX_ad_e Extracellular exchange EX ad LPAREN e RPAREN 
+EX_ade_e Extracellular exchange Adenine exchange
+EX_adn_e Extracellular exchange Adenosine exchange
+EX_akg_e Extracellular exchange 2-Oxoglutarate exchange
+EX_ala__D_e Extracellular exchange D-Alanine exchange
+EX_ala__L_e Extracellular exchange L-Alanine exchange
+EX_arg__L_e Extracellular exchange L-Arginine exchange
+EX_asn__L_e Extracellular exchange L-Asparagine exchange
+EX_asp__L_e Extracellular exchange L-Aspartate exchange
+EX_cit_e Extracellular exchange Citrate exchange
+EX_co2_e Extracellular exchange CO2 exchange
+EX_cys__L_e Extracellular exchange L-Cysteine exchange
+EX_cytd_e Extracellular exchange Cytidine exchange
+EX_dad_2_e Extracellular exchange Deoxyadenosine exchange
+EX_dcyt_e Extracellular exchange Deoxycytidine exchange
+EX_duri_e Extracellular exchange Deoxyuridine exchange
+EX_etoh_e Extracellular exchange Ethanol exchange
+EX_fe2_e Extracellular exchange Fe2+ exchange
+EX_fe3_e Extracellular exchange Fe3+ exchange
+EX_for_e Extracellular exchange Formate exchange
+EX_fum_e Extracellular exchange Fumarate exchange
+EX_gal_e Extracellular exchange D-Galactose exchange
+EX_glc__D_e Extracellular exchange D-Glucose exchange
+EX_gln__L_e Extracellular exchange L-Glutamine exchange
+EX_glu__L_e Extracellular exchange L-Glutamate exchange
+EX_gly_e Extracellular exchange Glycine exchange
+EX_gsn_e Extracellular exchange Guanosine exchange
+EX_gua_e Extracellular exchange Guanine exchange
+EX_h2_e Extracellular exchange H2 exchange
+EX_h2co3_e Extracellular exchange EX h2co3 LPAREN e RPAREN 
+EX_h2o_e Extracellular exchange H2O exchange
+EX_h_e Extracellular exchange H+ exchange
+EX_his__L_e Extracellular exchange L-Histidine exchange
+EX_hxan_e Extracellular exchange Hypoxanthine exchange
+EX_ile__L_e Extracellular exchange L-Isoleucine exchange
+EX_lac__L_e Extracellular exchange L-Lactate exchange
+EX_leu__L_e Extracellular exchange L-Leucine exchange
+EX_lys__L_e Extracellular exchange L-Lysine exchange
+EX_mal__L_e Extracellular exchange L-Malate exchange
+EX_met__L_e Extracellular exchange L-Methionine exchange
+EX_na1_e Extracellular exchange Sodium exchange
+EX_nh4_e Extracellular exchange Ammonia exchange
+EX_ni2_e Extracellular exchange Ni2+ exchange
+EX_nmn_e Extracellular exchange NMN exchange
+EX_no2_e Extracellular exchange Nitrite exchange
+EX_no3_e Extracellular exchange Nitrate exchange
+EX_no_e Extracellular exchange Nitric oxide exchange
+EX_o2_e Extracellular exchange O2 exchange
+EX_orn_e Extracellular exchange Ornithine exchange
+EX_orot_e Extracellular exchange Orotate exchange
+EX_phe__L_e Extracellular exchange L-Phenylalanine exchange
+EX_pheme_e Extracellular exchange Protoheme exchange
+EX_pi_e Extracellular exchange Phosphate exchange
+EX_pime_e Extracellular exchange EX pime LPAREN e RPAREN 
+EX_pro__L_e Extracellular exchange L-Proline exchange
+EX_pyr_e Extracellular exchange Pyruvate exchange
+EX_ser__D_e Extracellular exchange D-Serine exchange
+EX_ser__L_e Extracellular exchange L-Serine exchange
+EX_so4_e Extracellular exchange Sulfate exchange
+EX_succ_e Extracellular exchange Succinate exchange
+EX_thm_e Extracellular exchange Thiamin exchange
+EX_thr__L_e Extracellular exchange L-Threonine exchange
+EX_thymd_e Extracellular exchange Thymidine exchange
+EX_trp__L_e Extracellular exchange L-Tryptophan exchange
+EX_tyr__L_e Extracellular exchange L-Tyrosine exchange
+EX_ura_e Extracellular exchange Uracil exchange
+EX_urea_e Extracellular exchange Urea exchange
+EX_uri_e Extracellular exchange Uridine exchange
+EX_val__L_e Extracellular exchange L-Valine exchange
+EX_xan_e Extracellular exchange Xanthine exchange
+FADOX Respiratory chain FADOX
+FBA Glycolysis Fructose-bisphosphate aldolase
+FBA2 Others D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase
+FBP Glycolysis Fructose-bisphosphatase
+FCLPA Fucose Biosynthesis L-fuculose 1-phosphate aldolase
+FCLT Heme biosynthesis Ferrochelatase
+FE2abc Transport Iron (II) transport via ABC system
+FEDCabc Transport Iron  III  dicitrate transport via ABC system
+FMNAT Riboflavin Metabolism FMN adenylyltransferase
+FMNRx2 Respiratory chain FMN reductase
+FOLD3 Folate Biosynthesis Dihydropteroate synthase
+FORAMD Others FORAMD
+FORt Transport Formate transport via diffusion
+FRD5 TCA cycle FRD5
+FRDO Respiratory chain FRDO
+FTHFD THF Metabolism Formyltetrahydrofolate deformylase
+FTHFLi THF Metabolism Formate-tetrahydrofolate ligase
+FUM TCA cycle Fumarase
+FUMt3 Transport FUMt3
+G1PACT Aminosugar Metabolism Glucosamine-1-phosphate N-acetyltransferase
+G1SAT Heme biosynthesis Glutamate-1-semialdehyde aminotransferase
+G3PD1ir Glycerolipid Synthesis Glycerol 3 phosphate dehydrogenase  NAD 
+G3PD2 Glycerolipid Synthesis Glycerol-3-phosphate dehydrogenase (NADP)
+G5SADs Proline Biosynthesis L-glutamate 5-semialdehyde dehydratase (spontaneous)
+G6PDH1 Pentose-Phosphate-Pathway G6PDH1
+G6PDH2r Pentose-Phosphate-Pathway Glucose 6-phosphate dehydrogenase
+GALKr LPS Biosynthesis Galactokinase
+GALT LPS Biosynthesis Galactose 1 phosphate uridylyltransferase
+GALUi Others UTP-glucose-1-phosphate uridylyltransferase (irreversible)
+GALt2 Transport D galactose transport in via proton symport
+GAPD Glycolysis Glyceraldehyde-3-phosphate dehydrogenase
+GARFT IMP Synthesis Phosphoribosylglycinamide formyltransferase
+GART IMP Synthesis GAR transformylase-T
+GCALDD Others Glycolaldehyde dehydrogenase
+GF6PTA Aminosugar Metabolism Glutamine-fructose-6-phosphate transaminase
+GFUCS Fucose Biosynthesis GDP-L-fucose synthase
+GHMT2r Ser, Gly Biosynthesis Glycine hydroxymethyltransferase, reversible
+GK1 GTP de novo Synthesis Guanylate kinase (GMP:ATP)
+GLCt2 Transport D-glucose transport in via proton symport
+GLNS Gln Biosynthesis Glutamine synthetase
+GLNabc Transport L-glutamine transport via ABC system
+GLUDC Glutamate Metabolism Glutamate Decarboxylase
+GLUDy Glutamate Metabolism Glutamate dehydrogenase (NADP)
+GLUN Glutamate Metabolism Glutaminase
+GLUPRT IMP Synthesis Glutamine phosphoribosyldiphosphate amidotransferase
+GLUR Others Glutamate racemase
+GLUTRR Heme biosynthesis Glutamyl-tRNA reductase
+GLUTRS Heme biosynthesis Glutamyl-tRNA synthetase
+GLUt2r Transport L glutamate transport via proton symport  reversible
+GLYCTO1 Others Glycolate oxidase
+GLYK Glycerolipid Synthesis Glycerol kinase
+GLYt2r Transport Glycine reversible transport via proton symport
+GMAND Fucose Biosynthesis GDP-D-mannose dehydratase
+GMHEPAT LPS Biosynthesis - adphep D-glycero-D-manno-hepose 1-phosphate adenyltransferase
+GMHEPK LPS Biosynthesis - adphep D-glycero-D-manno-heptose 7-phosphate kinase
+GMHEPPA LPS Biosynthesis - adphep D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase
+GMPR Nucleotide Interconversion GMP reductase
+GMPS2 GTP de novo Synthesis GMP synthase
+GND Pentose-Phosphate-Pathway Phosphogluconate dehydrogenase
+GNNUC Purine metabolism Ribosylpyrimidine nucleosidase
+GRTT Others Geranyltranstransferase
+GSNt2 Transport Guanosine transport in via proton symport
+GTMLT Others G glutamyltransferase
+GTPCI Folate Biosynthesis GTP cyclohydrolase I
+GTPCII Riboflavin Metabolism GTP cyclohydrolase II
+GUAPRT Salvage pathway of GTP Guanine phosphoribosyltransferase
+GUAt Transport Guanine transport
+H2CO3D Others Carboxylic acid dissociation
+H2CO3D2 Others Carboxylic acid dissociation
+H2CO3TP Transport H2CO3TP
+H2Ot Transport H2O transport via diffusion
+HBZOPT Ubiquinone Biosynthesis Hydroxybenzoate octaprenyltransferase
+HCO3E Others HCO3 equilibration reaction
+HEMEti Transport Heme transport via ABC system
+HETZK Thiamin Biosynthesis Hydroxyethylthiazole kinase
+HEX1 Glycolysis Hexokinase (D-glucose:ATP)
+HISabc Transport, ABC system L-histidine transport via ABC system
+HMBS Heme biosynthesis Hydroxymethylbilane synthase
+HPPK Folate Biosynthesis 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase
+HPROa Glyoxylate Biosynthesis L hydroxyproline reductase  NAD 
+HPROx Glyoxylate Biosynthesis Trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase Arginine and proline metabolism EC:1.5.1.2
+HSDy Lysine/ Threonine Biosynthesis Homoserine dehydrogenase (NADPH)
+HSERTA Methionine Metabolism Homoserine O trans acetylase
+HSK Lysine/ Threonine Biosynthesis Homoserine kinase
+HXPRT Salvage pathway of GTP Hypoxanthine phosphoribosyltransferase (Hypoxanthine)
+HYDA1 Respiratory chain HYDA1
+HYXNt Transport Hypoxanthine transport
+ICDHyr TCA cycle Isocitrate dehydrogenase (NADP)
+ICHORS Menaquinone Biosynthesis Isochorismate synthase
+IGPS Tyr, Phe, Trp Biosynthesis Indole-3-glycerol-phosphate synthase
+ILETA Amino Acid Degradation Isoleucine transaminase
+ILEabc Transport, ABC system L-isoleucine transport via ABC system
+IMPC IMP Synthesis IMP cyclohydrolase
+IMPD GTP de novo Synthesis IMP dehydrogenase
+IPDPS Isoprenoid Biosynthesis 1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp)
+KARA1 Val Metabolism Ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)
+KARA2 Ile Metabolism Ketol-acid reductoisomerase (2-Acetolactate)
+KAS14 Fatty Acid Synthesis Beta-ketoacyl-ACP synthase
+KAS15 Fatty Acid Synthesis Beta-ketoacyl-ACP synthase (2)
+KAS_HP Fatty Acid Synthesis 3-hydroxy-palmetoyl-ACP synthesis
+KAS_HP2 Fatty Acid Synthesis 3-hydroxy-octadecanoyl-ACP synthesis
+KDOCT2 LPS Biosynthesis - cmpkdo 3-deoxy-manno-octulosonate cytidylyltransferase
+KDOPP LPS Biosynthesis - cmpkdo 3-deoxy-manno-octulosonate-8-phosphatase
+KDOPS LPS Biosynthesis - cmpkdo 3-deoxy -D-manno-octulosonic -acid 8-phosphate synthase
+LDH_D1 Respiratory chain LDH D1
+LEUTA Amino Acid Degradation Leucine transaminase
+LEUabc Transport, ABC system L-leucine transport via ABC system
+LPADSS_HP LPS Biosynthesis LPADSS HP
+LPSSYN_HP LPS Biosynthesis LPSSYN HP
+LYSt2r Transport L lysine reversible transport via proton symport
+L_LACt2r Transport L lactate reversible transport via proton symport
+LacR Others Lactate racemase
+MALS TCA cycle Malate synthase
+MALt2r Transport L malate reversible transport via proton symport
+MAN1PT2 Fucose Biosynthesis Mannose-1-phosphate guanylyltransferase (GDP)
+MAN6PI Fucose Biosynthesis Mannose-6-phosphate isomerase
+MCOATA Fatty Acid Synthesis Malonyl-CoA-ACP transacylase
+MDH4 TCA cycle MDH4
+MDRPD Others 5-Methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase
+ME1 Others Malic enzyme (NAD)
+MECDPDH Isoprenoid Biosynthesis 2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase
+MECDPS Isoprenoid Biosynthesis 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
+MEPCT Isoprenoid Biosynthesis 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+METAT Spermidine Biosynthesis Methionine adenosyltransferase
+METB1 Methionine Metabolism Metb1 (rev)
+METabc Transport, ABC system L-methionine transport via ABC system
+MOAT_HP LPS Biosynthesis MOAT HP
+MOHMT Pantothenate and CoA Biosynthesis 3-methyl-2-oxobutanoate hydroxymethyltransferase
+MTAN Methionine Salvage Pathway Methylthioadenosine nucleosidase
+MTHFC THF Metabolism Methenyltetrahydrofolate cyclohydrolase
+MTHFD THF Metabolism Methylenetetrahydrofolate dehydrogenase (NADP)
+MTHFR2 THF Metabolism 5,10-methylenetetrahydrofolate reductase (NADH)
+MTRI Methionine Salvage Pathway 5-methylthioribose-1-phosphate isomerase
+MTRK Methionine Salvage Pathway 5-methylthioribose kinase
+NADK Nicotinate Biosynthesis NAD kinase
+NADPHQR Respiratory chain NADPHQR
+NADS1 Nicotinate Biosynthesis NAD synthase (nh3)
+NARK Transport Nitrite transport, extracellular
+NAt3_1 Transport Sodium proton antiporter  HNA is 11 
+NDH_1 Respiratory chain NDH 1
+NDPK1 GTP de novo Synthesis Nucleoside-diphosphate kinase (ATP:GDP)
+NDPK2 UTP/CTP de novo Synthesis Nucleoside-diphosphate kinase (ATP:UDP)
+NDPK3 Nucleotide Interconversion Nucleoside-diphosphate kinase (ATP:CDP)
+NDPK4 dTTP Biosynthesis Nucleoside-diphosphate kinase (ATP:dTDP)
+NDPK5 dGTP Biosynthesis Nucleoside-diphosphate kinase (ATP:dGDP)
+NDPK6 dUTP Biosynthesis Nucleoside-diphosphate kinase (ATP:dUDP)
+NDPK7 dCTP Biosynthesis Nucleoside-diphosphate kinase (ATP:dCDP)
+NDPK8 dATP Biosynthesis Nucleoside-diphosphate kinase (ATP:dADP)
+NH4t Transport Ammonia reversible transport
+NIabc Transport, ABC system Nickel transport via ABC system
+NMNAT Nicotinate Biosynthesis Nicotinamide-nucleotide adenylyltransferase
+NMNTP Transport Nmntp
+NNATr Nicotinate Biosynthesis Nicotinate-nucleotide adenylyltransferase
+NNDPR Nicotinate Biosynthesis Nicotinate-nucleotide diphosphorylase (carboxylating)
+NO Peroxynitrite NO
+NO3t2 Transport Nitrate transport in via proton symport
+NO3t3 Transport NO3t3
+NOt Transport NO transport (diffusion)
+NPHS Menaquinone Biosynthesis Naphthoate synthase
+NTRARz Nitrite Metabolism NTRARz
+O2t Transport O2 transport  diffusion 
+OCBT Urea Cycle Ornithine carbamoyltransferase
+OCOAT1 TCA cycle 3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate)
+OCTDPS Others Octaprenyl pyrophosphate synthase
+OMBZLM Ubiquinone Biosynthesis 2-Octaprenyl-6-methoxy-benzoquinol methylase
+OMPDC UTP/CTP de novo Synthesis Orotidine-5'-phosphate decarboxylase
+OOR3r TCA cycle 2-oxoglutarate synthase (rev)
+OPHBDC Ubiquinone Biosynthesis Octaprenyl-hydroxybenzoate decarboxylase
+ORNTA Glutamate Biosynthesis Ornithine transaminase
+ORNt2r Transport Orntithine reversible transport in via proton symport
+OROATP Transport, ABC system Orotic acid transport inout via proton symporter
+ORPT UTP/CTP de novo Synthesis Orotate phosphoribosyltransferase
+OXGDC2 Menaquinone Biosynthesis 2-oxoglutarate decarboxylase
+P5CD Glutamate Biosynthesis 1-pyrroline-5-carboxylate dehydrogenase
+P5CR Proline Biosynthesis Pyrroline-5-carboxylate reductase
+PABB Folate Biosynthesis PABB
+PANTS Pantothenate and CoA Biosynthesis Pantothenate synthase
+PAPPT3 Peptidoglycan Biosynthesis Phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)
+PAPSR Others Phosphoadenylyl-sulfate reductase (thioredoxin)
+PASYN_HP Glycerolipid Synthesis PASYN HP
+PDH2 Glycolysis PDH2
+PEPT_HP Glycerolipid Synthesis PEPT HP
+PGAMT Aminosugar Metabolism Phosphoglucosamine mutase
+PGCD Ser, Gly Biosynthesis Phosphoglycerate dehydrogenase
+PGI Glycolysis Glucose-6-phosphate isomerase
+PGK Glycolysis Phosphoglycerate kinase
+PGL Pentose-Phosphate-Pathway 6-phosphogluconolactonase
+PGM Glycolysis Phosphoglycerate mutase
+PGMT Others Phosphoglucomutase
+PGPP_HP Glycerolipid Synthesis PGPP HP
+PGSA_HP Glycerolipid Synthesis PGSA HP
+PHCD Glyoxylate Biosynthesis L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase
+PHCHGS Glyoxylate Biosynthesis PHCHGS
+PHETA1 Tyr, Phe, Trp Biosynthesis Phenylalanine transaminase
+PHEt2r Transport L phenylalanine reversible transport via proton symport
+PIMEtr Transport PIMEtr
+PIt2r Transport Phosphate reversible transport via symport
+PMANM Fucose Biosynthesis Phosphomannomutase
+PMDPHT Riboflavin Metabolism Pyrimidine phosphatase
+PMPK Thiamin Biosynthesis Phosphomethylpyrimidine kinase
+PNTK Pantothenate and CoA Biosynthesis Pantothenate kinase
+PPA Others Inorganic diphosphatase
+PPBNGS Heme biosynthesis Porphobilinogen synthase
+PPCDC Pantothenate and CoA Biosynthesis Phosphopantothenoylcysteine decarboxylase
+PPM Nucleotide Interconversion Phosphopentomutase
+PPM2 Nucleotide Interconversion Phosphopentomutase 2 (deoxyribose)
+PPNCL2 Pantothenate and CoA Biosynthesis Phosphopantothenate-cysteine ligase
+PPND Tyr, Phe, Trp Biosynthesis Prephenate dehydrogenase
+PPNDH Tyr, Phe, Trp Biosynthesis Prephenate dehydratase
+PPPGO Heme biosynthesis Protoporphyrinogen oxidase (aerobic)
+PPS Glycolysis Phosphoenolpyruvate synthase
+PPTGS Peptidoglycan Biosynthesis Peptidoglycan subunit synthesis
+PRAGSr IMP Synthesis Phosphoribosylglycinamide synthase
+PRAIS IMP Synthesis Phosphoribosylaminoimidazole synthase
+PRAIi Tyr, Phe, Trp Biosynthesis Phosphoribosylanthranilate isomerase (irreversible)
+PRASCSi IMP Synthesis Phosphoribosylaminoimidazolesuccinocarboxamide synthase
+PRFGS IMP Synthesis Phosphoribosylformylglycinamidine synthase
+PROD2 Amino Acid Degradation Proline dehydrogenase
+PROabc Transport, ABC system L-proline transport via ABC system
+PROt2r Transport L proline reversible transport via proton symport
+PROt4 Transport Na+/Proline-L symporter
+PRPPS IMP Synthesis Phosphoribosylpyrophosphate synthetase
+PSCVT Chorismate Biosynthesis 3-phosphoshikimate 1-carboxyvinyltransferase
+PSD_HP Glycerolipid Synthesis PSD HP
+PSERT Ser, Gly Biosynthesis Phosphoserine transaminase
+PSP_D Ser, Gly Biosynthesis Phosphoserine phosphatase  D serine 
+PSP_L Ser, Gly Biosynthesis Phosphoserine phosphatase (L-serine)
+PSSA_HP Glycerolipid Synthesis PSSA HP
+PTAr Others Phosphotransacetylase
+PTPATi Pantothenate and CoA Biosynthesis Pantetheine-phosphate adenylyltransferase
+PUNP1 Salvage pathway of ATP Purine-nucleoside phosphorylase (Adenosine)
+PUNP2 Salvage pathway of ATP Purine-nucleoside phosphorylase (Deoxyadenosine)
+PUNP3 Salvage pathway of GTP Purine-nucleoside phosphorylase (Guanosine)
+PUNP4 Salvage pathway of GTP Purine-nucleoside phosphorylase (Deoxyguanosine)
+PUNP5 Nucleotide Interconversion Purine-nucleoside phosphorylase (Inosine)
+PUNP6 Nucleotide Interconversion Purine-nucleoside phosphorylase (Deoxyinosine)
+PUNP7 Salvage pathway of XTP Purine-nucleoside phosphorylase (Xanthosine)
+PUTA3 Glutamate Biosynthesis PUTA3
+PYRDC Others Pyruvate decarboxylase
+PYRt2 Transport Pyruvate transport in via proton symport
+QULNS Nicotinate Biosynthesis Quinolinate synthase
+RBFK Riboflavin Metabolism Riboflavin kinase
+RBFSa Riboflavin Metabolism Riboflavin synthase
+RBFSb Riboflavin Metabolism Riboflavin synthase
+RFAC_HP LPS Biosynthesis - adphep RFAC HP
+RFA_HP LPS Biosynthesis RFA HP
+RHCCE Others S-ribosylhomocysteine cleavage enzyme
+RNDR1 dATP Biosynthesis Ribonucleoside-diphosphate reductase (ADP)
+RNDR2 dGTP Biosynthesis Ribonucleoside-diphosphate reductase (GDP)
+RNDR3 dCTP Biosynthesis Ribonucleoside-diphosphate reductase (CDP)
+RNDR4 dUTP Biosynthesis Ribonucleoside-diphosphate reductase (UDP)
+RPE Pentose-Phosphate-Pathway Ribulose 5-phosphate 3-epimerase
+RPI Pentose-Phosphate-Pathway Ribose-5-phosphate isomerase
+S7PI LPS Biosynthesis - adphep Sedoheptulose 7-phosphate isomerase
+SADT2 Others Sulfate adenyltransferase
+SDPDS Lysine Biosynthesis Succinyl-diaminopimelate desuccinylase
+SDPTA Lysine Biosynthesis Succinyldiaminopimelate transaminase
+SERAT Methionine Metabolism Serine O-acetyltransferase
+SERD_L Serine Metabolism L-serine deaminase
+SERt2r Transport L serine reversible transport via proton symport
+SHCHCS2 Menaquinone Biosynthesis 2-succinyl-6-hydroxy-2,4-cyclohexadiene 1-carboxylate synthase
+SHK3Dr Chorismate Biosynthesis Shikimate dehydrogenase
+SHKK Chorismate Biosynthesis Shikimate kinase
+SHSL1 Methionine Metabolism O-succinylhomoserine lyase (L-cysteine)
+SHSL2r Methionine Metabolism O-succinylhomoserine lyase (H2S)
+SHSL4r Methionine Metabolism O succinylhomoserine lyase  elimination   reversible
+SK_ahcys_c Intracellular source/sink EX ahcys e
+SPMS Spermidine Biosynthesis Spermidine synthase
+SPODM ROS Detoxification Superoxide dismutase
+SPRMS Spermidine Biosynthesis Spermine synthase
+SUCBZL Menaquinone Biosynthesis O-succinylbenzoate-CoA ligase
+SUCBZS Menaquinone Biosynthesis O-succinylbenzoate-CoA synthase
+SUCCt2r Transport Succinate transport via proton symport
+SUCFUMt Transport Succinate:fumarate antiporter
+SULR Others Sulfite reductase (NADPH2)
+SULabc Transport Sulfate transport via ABC system
+TALA Pentose-Phosphate-Pathway Transaldolase
+THDPS Lysine/ Threonine Biosynthesis Tetrahydrodipicolinate succinylase
+THMDt2 Transport Thymidine transport in via proton symport
+THMabc Transport, ABC system Thiamine transport via ABC system
+THRD_L Amino Acid Degradation L-threonine deaminase
+THRS Lysine/ Threonine Biosynthesis Threonine synthase
+THRt2r Transport L threonine reversible transport via proton symport
+THZSN Thiamin Biosynthesis THZSN
+TKT1 Pentose-Phosphate-Pathway Transketolase
+TKT2 Pentose-Phosphate-Pathway Transketolase
+TMDK1 Nucleotide Interconversion Thymidine kinase (ATP:thymidine)
+TMDSf Nucleotide Interconversion TMDSf
+TMPPP Thiamin Biosynthesis Thiamine-phosphate diphosphorylase
+TPI Glycolysis Triose-phosphate isomerase
+TRDR Others Thioredoxin reductase (NADPH)
+TRPS1 Tryptophan Biosynthesis Tryptophan synthase (indoleglycerol phosphate)
+TRPS2 Tryptophan Biosynthesis Tryptophan synthase (indole)
+TRPS3 Tryptophan Biosynthesis Tryptophan synthase (indoleglycerol phosphate)
+TRPt2r Transport L tryptophan reversible transport via proton symport
+TYRTA Tyrosine Biosynthesis Tyrosine transaminase
+TYRt2r Transport L tyrosine reversible transport via proton symport
+U23GAAT_HP LPS Biosynthesis U23GAAT HP
+U2GAAT LPS Biosynthesis U2GAAT
+U2GAAT2 LPS Biosynthesis U2GAAT2
+UAAGDS Peptidoglycan Biosynthesis UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase
+UAGAAT_HP LPS Biosynthesis UAGAAT HP
+UAGCVT Aminosugar Metabolism UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+UAGDP Aminosugar Metabolism UDP-N-acetylglucosamine diphosphorylase
+UAGDP2 Aminosugar Metabolism UAGDP2
+UAGPT3 Peptidoglycan Biosynthesis UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+UAMAGS Peptidoglycan Biosynthesis UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase
+UAMAS Peptidoglycan Biosynthesis UDP-N-acetylmuramoyl-L-alanine synthetase
+UAPGR Aminosugar Metabolism UDP-N-acetylenolpyruvoylglucosamine reductase
+UDCPDP Peptidoglycan Biosynthesis Undecaprenyl-diphosphatase
+UDCPDPS Others Undecaprenyl diphosphate synthase
+UDPG4E LPS Biosynthesis UDPglucose 4-epimerase
+UGMDDS Peptidoglycan Biosynthesis UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase
+UHGADA_HP LPS Biosynthesis UHGADA HP
+UMPK UTP/CTP de novo Synthesis UMP kinase
+UNK2 Methionine Salvage Pathway 2-keto-4-methylthiobutyrate transamination
+UPP3S Heme biosynthesis Uroporphyrinogen-III synthase
+UPPDC1 Heme biosynthesis Uroporphyrinogen decarboxylase (uroporphyrinogen III)
+UPPDC2 Heme biosynthesis Uroporphyrinogen decarboxylase (uroporphyrinogen I)
+UPPRT Nucleotide Interconversion Uracil phosphoribosyltransferase
+URAt2 Transport Uracil transport in via proton symport
+UREA Urea Cycle Urease
+UREAt Transport Urea transport via facilitate diffusion
+URIDK2r dTTP Biosynthesis Uridylate kinase (dUMP)
+URIt2 Transport Uridine transport in via proton symport
+USHD_HP LPS Biosynthesis USHD HP
+VALTA Amino Acid Degradation Valine transaminase
+VALabc Transport, ABC system L-valine transport via ABC system
+XANt2 Transport Xanthine transport in via proton symport
+XPPT Salvage pathway of XTP Xanthine phosphoribosyltransferase

@@ -5,8 +5,8 @@ import os
 import time
 from itertools import repeat
 from collections import Sequence
-
-
+import kink_finder
+from matplotlib import pyplot as plt
 import numpy as np
 from deap import tools, base, creator
 
@@ -139,7 +139,24 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 	return toolbox
 
 
-
+def plot_pareto(pareto,filename,title,xlabel,figure_str):
+	y_plot = np.array(list(map(lambda i : i['obj1'],pareto)))
+	x_plot = np.array(list(map(lambda i : i['obj2'],pareto)))
+	plt.clf()
+	try:
+		x0,y0,k1,k2 = kink_finder.get_kink_point(x_plot,y_plot)
+		plt.plot(x0,y0,'*',c='r', label = 'Phase Transition Point')
+		plt.plot(x_plot,kink_finder.piecewise_linear(x_plot,x0,y0,k1,k2),c='lawngreen', label = 'Fitted Line')
+	except:
+		print('No Phase Transition')
+	plt.plot(x_plot,y_plot,c='b', label = 'Pareto Points',marker='.',linestyle='None')
+	plt.xlabel(xlabel)
+	plt.ylabel('Biomass Production')
+	plt.title(title)
+	plt.legend()
+	plt.savefig(figure_str+filename+'.png')
+	plt.savefig(figure_str+filename+'.eps')
+	plt.clf()
 
 
 def pareto(generations,pop_size,model, obj1, obj2, batch = False,cores=0):
