@@ -42,6 +42,8 @@ for reaction_name,reaction_rule,stochiometry in zip(reaction_names, reaction_rul
 	reaction = cobra.Reaction(reaction_name)
 	if reaction_name == 'biomass':
 		reaction.bounds = [0.0,10.0]
+	elif reaction_name == 't1':
+		reaction.bounds = [0.0,100.0]
 	else:
 		reaction.bounds = [-100.0,100.0]
 	reaction.add_metabolites(stochiometry)
@@ -52,7 +54,7 @@ for reaction_name,reaction_rule,stochiometry in zip(reaction_names, reaction_rul
 generations = 25
 pop_size = 300
 
-obj1_str = 's2'
+obj1_str = 'biomass'
 obj2_str = 's3'
 
 obj1 = model.reactions.get_by_id(obj1_str).flux_expression
