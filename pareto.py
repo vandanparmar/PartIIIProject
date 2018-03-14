@@ -69,6 +69,40 @@ def set_weights(individual,model,condts,lb,ub):
 	return model
 
 
+def long_evaluate(individual,obj1,obj2,model,condts,lb,ub):
+	this_model = model
+	this_model = set_weights(individual,this_model,condts,lb,ub)
+	# print('weights set')
+
+	this_model.objective = this_model.problem.Objective(obj1,direction='max')
+	# print('obj1')
+	sol1 = this_model.optimize()
+	flux1 = sol1.objective_value
+	# print('opt1',flux1)
+	fluxes1 = sol1.fluxes
+	flux1_constr = this_model.problem.Constraint(obj1,lb=flux1,ub=flux1)
+	# print('constr')
+
+	this_model.add_cons_vars(flux1_constr)
+	# print('add constr')
+
+	this_model.objective = this_model.problem.Objective(obj2,direction='max')
+	# print('obj2')
+
+	sol2 = this_model.optimize()
+	fluxes2 = sol2.fluxes
+
+	# this_model.objective = this_model.problem.Objective(obj2,direction='min')
+	# # print('obj2')
+
+
+	# flux3 = this_model.slim_optimize()
+	
+	this_model.remove_cons_vars(flux1_constr)
+	# print('opt2', flux3, flux2)
+	return fluxes1,fluxes2
+
+
 def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	this_model = model
 	this_model = set_weights(individual,this_model,condts,lb,ub)

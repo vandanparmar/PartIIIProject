@@ -24,13 +24,17 @@ metabolites = ['b','c']
 intake_genes = ['g1','g2']
 
 
-reaction_names = ['biomass','s1','s2','s3','t1','t2']
-reaction_rules = ['g1','g2','g2','g1','(g1 or g2)','(g1 or g2)']
+# reaction_names = ['biomass','s1','s2','s3','t1','t2']
+# reaction_rules = ['g1','g2','g2','g1','(g1 or g2)','(g1 or g2)']
+
+reaction_names = ['biomass','s1','s2','s3']
+reaction_rules = ['g1','g2','g2','g1']
+
 stochiometries = [{a:1.0,c:-1.0},{d:1.0,c:-1.0},{a:-1.0,b:1.0},{b:1.0,d:-1.0},{b:1.0,e:-1.0},{c:1.0,e:-1.0}]
 
 for metabolite,gene in zip(metabolites,intake_genes):
 	reaction_i = cobra.Reaction(metabolite+'_intake')
-	reaction_i.lower_bound = -5.0
+	reaction_i.lower_bound = -3.0
 	reaction_i.upper_bound = 5.0
 	reaction_i.add_metabolites({
 		eval(metabolite) : -1.0
@@ -51,7 +55,7 @@ for reaction_name,reaction_rule,stochiometry in zip(reaction_names, reaction_rul
 	model.add_reactions([reaction])
 
 
-generations = 30
+generations = 20
 pop_size = 100
 
 obj1_str = 'biomass'
@@ -62,9 +66,10 @@ obj2 = model.reactions.get_by_id(obj2_str).flux_expression
 
 
 
-pops,vals,pareto =	pareto.pareto(generations,pop_size,model, obj1, obj2)
+pops,vals,pareto_this =	pareto.pareto(generations,pop_size,model, obj1, obj2)
 
-points = list(zip(*[p.fitness.values for p in pareto]))
+
+points = list(zip(*[p.fitness.values for p in pareto_this]))
 
 c1 = np.array([194, 45, 213])/255
 c2 = np.array([52, 188, 110])/255
@@ -94,10 +99,11 @@ plt.show()
 
 
 
-to_save = {'pareto': [{'obj1': p.fitness.values[0], 'obj2':p.fitness.values[1],'gene_set': list(p)} for p in pareto]}
-pareto = to_save['pareto']
-y_plot = np.array(list(map(lambda i : i['obj1'],pareto)))
-x_plot = np.array(list(map(lambda i : i['obj2'],pareto)))
+to_save = {'pareto': [{'obj1': p.fitness.values[0], 'obj2':p.fitness.values[1],'gene_set': list(p)} for p in pareto_this]}
+pareto_this = to_save['pareto']
+pareto_this = sorted(pareto_this,key= lambda x : x['obj1'])
+y_plot = np.array(list(map(lambda i : i['obj1'],pareto_this)))
+x_plot = np.array(list(map(lambda i : i['obj2'],pareto_this)))
 
 x0,y0,k1,k2 = kink_finder.get_kink_point(x_plot,y_plot)
 plt.xlabel('Seddon_3')
@@ -107,3 +113,30 @@ plt.plot(x0,y0,'*',c='r', label = 'Phase Transition Point')
 plt.plot(x_plot,kink_finder.piecewise_linear(x_plot,x0,y0,k1,k2),c='lawngreen', label = 'Fitted Line')
 plt.legend()
 plt.show()
+
+
+
+bounds = np.array(list(map(lambda reaction : reaction.bounds, model.reactions)))
+lb = bounds[:,0]
+lb = np.clip(lb, a_min=-100.0,a_max = 0.0)
+ub = bounds[:,1]
+ub = np.clip(ub,a_min= 0.0,  a_max=100.0)
+gene_dict = {x.id:i for i,x in enumerate(model.genes)}
+condts = pareto.gene_condts(model,gene_dict)
+
+individual = np.array(pareto_this[0]['gene_set'])
+
+fluxes1,fluxes2 = pareto.long_evaluate(individual,obj1,obj2,model,condts,lb,ub)
+print(fluxes1)
+print(fluxes2)
+
+individual = np.array(pareto_this[-1]['gene_set'])
+
+fluxes1,fluxes2 = pareto.long_evaluate(individual,obj1,obj2,model,condts,lb,ub)
+print(fluxes1)
+print(fluxes2)
+
+
+
+
+
