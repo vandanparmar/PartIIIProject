@@ -21,17 +21,17 @@ metabolites = ['b','c']
 
 
 #intake_genes = ['','','','']
-intake_genes = ['(g1 or g2)','(g1 or g2)']
+intake_genes = ['g1','g2']
 
 
 reaction_names = ['biomass','s1','s2','s3','t1','t2']
-reaction_rules = ['g1','g2','g2','g1','(g1 or g2)','(g1 and g2)']
+reaction_rules = ['g1','g2','g2','g1','(g1 or g2)','(g1 or g2)']
 stochiometries = [{a:1.0,c:-1.0},{d:1.0,c:-1.0},{a:-1.0,b:1.0},{b:1.0,d:-1.0},{b:1.0,e:-1.0},{c:1.0,e:-1.0}]
 
 for metabolite,gene in zip(metabolites,intake_genes):
 	reaction_i = cobra.Reaction(metabolite+'_intake')
-	reaction_i.lower_bound = -1.0
-	reaction_i.upper_bound = 1.0
+	reaction_i.lower_bound = -5.0
+	reaction_i.upper_bound = 5.0
 	reaction_i.add_metabolites({
 		eval(metabolite) : -1.0
 		})
@@ -51,8 +51,8 @@ for reaction_name,reaction_rule,stochiometry in zip(reaction_names, reaction_rul
 	model.add_reactions([reaction])
 
 
-generations = 25
-pop_size = 300
+generations = 30
+pop_size = 100
 
 obj1_str = 'biomass'
 obj2_str = 's3'
@@ -85,9 +85,6 @@ for i,val in enumerate(vals):
 
 	ax.scatter(val[1],val[0],marker='*',c=c_map_i(i))
 	ax.plot(val[1],val[0],'r--',linewidth=0.5,c=c_map_i(i))
-fig.savefig('all_pareto_hp_succ.png')
-fig.savefig('all_pareto_hp_succ.eps')
-
 plt.ylabel('$f_1$')
 plt.xlabel('$f_2$')
 plt.title('Pareto')
