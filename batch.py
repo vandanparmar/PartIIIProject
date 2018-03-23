@@ -5,20 +5,35 @@ import cobra
 import json
 import pareto_reconstruction
 from matplotlib import pyplot as plt
+import numpy as np
 
-obj2_arr = ['RBFSa','PYRt2','PABB','O2t','NO3t2','NH4t','NAt3_1','SUCCt2r','ACt2r']
+# obj2_arr = ['RBFSa','PYRt2','PABB','O2t','NO3t2','NH4t','NAt3_1','SUCCt2r','ACt2r']
 
-obj1_arr = ['BIOMASS_HP_published']*len(obj2_arr)
 
-model_arr = ['h_pylori.json']*len(obj2_arr)
+model_arr = ['h_pylori.json']*12
 
-filename_arr = ['hp_ribo','hp_pyro','hp_fola','hp_o2_trans','hp_nit_trans','hp_amm_trans','hp_na_trans','hp_succ_neg','hp_acet_neg']
+# filename_arr = ['hp_ribo','hp_pyro','hp_fola','hp_o2_trans','hp_nit_trans','hp_amm_trans','hp_na_trans','hp_succ_neg','hp_acet_neg']
 
-xlabel_arr = ['Riboflavin Synthesis','Pyruvate Transport','Folate Synthesis','Oxygen Transport','Nitrate Transport','Ammonia Transport','Sodium Transport','Succinate Transport','Acetate Transport']
+# xlabel_arr = ['Riboflavin Synthesis','Pyruvate Transport','Folate Synthesis','Oxygen Transport','Nitrate Transport','Ammonia Transport','Sodium Transport','Succinate Transport','Acetate Transport']
+
+
+obj2_arr = ['SUCCt2r']*4
+obj2_arr.extend(['ACt2r']*4)
+obj2_arr.extend(['NH4t']*4)
+
+obj1_arr = ['BIOMASS_HP_published']*12
+
 
 data_str = 'new_data/data_'
 figure_str = 'figures/'
-
+files = ['succ','acet','amm']
+ex_o2_bounds = [[3.0*i,0.0] for i in range(-4,0)]
+filename_arr = ['hp_'+file+'_o2_'+str(int(-bound[0])) for file in files for bound in ex_o2_bounds]
+print(filename_arr)
+ex_o2_bounds = ex_o2_bounds*3
+xlabel_arr = ['Succinate Transport']*4
+xlabel_arr.extend(['Acetate Transport']*4)
+xlabel_arr.extend(['Ammonia Transport']*4)
 lambd = 1.0
 alpha = 0.0
 cutoff = 95
@@ -30,10 +45,12 @@ recon_points = 200
 # individuals = 10
 # cutoff = 70
 
-for obj1_str,obj2_str,model_str,filename,xlabel in tqdm(list(zip(obj1_arr, obj2_arr, model_arr,filename_arr,xlabel_arr))):
+for obj1_str,obj2_str,model_str,filename,xlabel,bounds in tqdm(list(zip(obj1_arr, obj2_arr, model_arr,filename_arr,xlabel_arr,ex_o2_bounds))):
 	###### Pareto ##########
 	network = True
 	model = cobra.io.load_json_model(model_str)
+	model.reactions.get_by_id('EX_o2_e').bounds = bounds
+	print(model.reactions.get_by_id('EX_o2_e').bounds)
 	obj1 = model.reactions.get_by_id(obj1_str).flux_expression
 	if "neg" in filename:
 		obj2 = -model.reactions.get_by_id(obj2_str).flux_expression
@@ -58,7 +75,7 @@ for obj1_str,obj2_str,model_str,filename,xlabel in tqdm(list(zip(obj1_arr, obj2_
 		network=False
 	##### Pareto Reconstruction ########
 	if network==True:
-		pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x = pareto_reconstruction.reconstruct(data_str+filename+'json', nodes, recon_points, model, obj1, obj2)
+		pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x = pareto_reconstruction.reconstruct(data_str+filename+'.json', nodes, recon_points, model, obj1, obj2)
 		plt.clf()
 		plt.plot(pareto_x,pareto_y,'*',color='k',label='Pareto Optimal')
 		plt.plot(pareto_left[:,1], pareto_left[:,0],'r.',label='Left')

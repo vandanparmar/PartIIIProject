@@ -53,7 +53,7 @@ def eval_pareto(model ,obj1 ,obj2 ,gene_set):
 	to_return = list(map(lambda i : evaluate(i, obj1, obj2, model, condts, lb, ub), gene_set))
 	return np.array(to_return)
 
-def reconstruct(filename,nodes,recon_points,model,obj1,obj2):
+def reconstruct(filename,nodes,recon_points,h_p,obj1,obj2):
 	data = json.load(open(filename))
 	network = data['network']
 	pareto_data = data['pareto']
@@ -102,8 +102,8 @@ def reconstruct(filename,nodes,recon_points,model,obj1,obj2):
 	to_add = {'pareto_left':pareto_left.tolist(),
 		'pareto_right':pareto_right.tolist(),
 		'pareto_noise':pareto_noise.tolist(),
-		'pareto_y':pareto_y.tolist(),
-		'pareto_x':pareto_x.tolist() }
+		'pareto_y':pareto_y,
+		'pareto_x':pareto_x }
 	data['recon'] = to_add
 	with open(filename, 'w') as outfile:
 	    json.dump(data, outfile)

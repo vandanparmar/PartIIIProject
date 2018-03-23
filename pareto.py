@@ -12,6 +12,7 @@ from deap import tools, base, creator
 
 
 def h(y):
+	# return y
 	return np.power((1+ np.abs(np.log(y))),np.sign(y-1))
 
 
@@ -97,10 +98,9 @@ def long_evaluate(individual,obj1,obj2,model,condts,lb,ub):
 
 
 	# flux3 = this_model.slim_optimize()
-	
 	this_model.remove_cons_vars(flux1_constr)
 	# print('opt2', flux3, flux2)
-	return fluxes1,fluxes2
+	return fluxes2
 
 
 def evaluate(individual,obj1,obj2,model,condts,lb,ub):
@@ -115,7 +115,7 @@ def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	# print('opt1',flux1)
 
 	if (np.isnan(flux1)):
-		return 0,0
+		return -np.inf,-np.inf
 	else:
 		flux1_constr = this_model.problem.Constraint(obj1,lb=flux1,ub=flux1)
 		# print('constr')
