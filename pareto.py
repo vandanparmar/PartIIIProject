@@ -102,6 +102,10 @@ def long_evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	# print('opt2', flux3, flux2)
 	return fluxes2
 
+def eval_wrapper(args):
+	individual,obj1,obj2,model,condts,lb,ub = args
+	f1,f2 = evaluate(individual,obj1,obj2,model,condts,lb,ub)
+	return f1,f2
 
 def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	this_model = model
@@ -115,6 +119,7 @@ def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	# print('opt1',flux1)
 
 	if (np.isnan(flux1)):
+		print('nan')
 		return -np.inf,-np.inf
 	else:
 		flux1_constr = this_model.problem.Constraint(obj1,lb=flux1,ub=flux1)
@@ -149,17 +154,17 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 
 	bounds = np.array(list(map(lambda reaction : reaction.bounds, model.reactions)))
 	lb = bounds[:,0]
-	lb = np.clip(lb, a_min=-100.0,a_max = 0.0)
+	lb = np.clip(lb, a_min=-np.inf,a_max = np.inf)
 	ub = bounds[:,1]
-	ub = np.clip(ub,a_min= 0.0,  a_max=100.0)
+	ub = np.clip(ub,a_min= -np.inf,  a_max=np.inf)
 	gene_dict = {x.id:i for i,x in enumerate(model.genes)}
 	condts = gene_condts(model,gene_dict)
-	#initial max and min fluxes
+	#initial max and min gene expressions
 	min_v = list(np.zeros((n_genes,)))
 	max_v = list(np.zeros((n_genes,))+100.0)
 
 	if (cores!=0):
-		pool = multiprocessing.Pool(os.num_cores()-1)
+		pool = multiprocessing.Pool(cores)
 		toolbox.register("map",pool.map)
 	toolbox.register("init_val", init_attribute)
 	toolbox.register("individual", tools.initRepeat, creator.Individual,
@@ -173,7 +178,7 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 	return toolbox
 
 
-def plot_pareto(pareto,filename,title,xlabel,figure_str):
+def plot_pareto(pareto,filename,title,xlabel,ylabel,figure_str):
 	y_plot = np.array(list(map(lambda i : i['obj1'],pareto)))
 	x_plot = np.array(list(map(lambda i : i['obj2'],pareto)))
 	plt.clf()
@@ -185,7 +190,7 @@ def plot_pareto(pareto,filename,title,xlabel,figure_str):
 		print('No Phase Transition')
 	plt.plot(x_plot,y_plot,c='b', label = 'Pareto Points',marker='.',linestyle='None')
 	plt.xlabel(xlabel)
-	plt.ylabel('Biomass Production')
+	plt.ylabel(ylabel)
 	plt.title(title)
 	plt.legend()
 	plt.savefig(figure_str+filename+'.png')

@@ -1,0 +1,8418 @@
+{
+  "FMNRx2": {
+    "bounds": [
+      -999999.0,
+      0.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 5.350078391759933E-17,
+    "upper_val": 0.9999999052718462,
+    "lower_val": 0.9999999052718462,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "THDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222936,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PHEt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999981289988308,
+    "lower_val": 0.000036005948006445106,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUTRS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003098178973977641,
+    "upper_val": 0.9999978512620887,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OXGDC2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003869057127284935,
+    "upper_val": 0.9999979217364647,
+    "lower_val": 0.9999979217364653,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "C180SN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.005421830543724062,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "G3PD2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 43.011292346861055,
+    "upper_val": 0.9999999999999996,
+    "lower_val": 0.9999999999999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AIRC2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.3637380530669688,
+    "upper_val": 0.9999978688195226,
+    "lower_val": 0.9999999438764615,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_arg__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -3.552713678800501E-15,
+    "upper_val": 0.9999948944650026,
+    "lower_val": 0.9999948944650026,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_h2_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999972855895534,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK5": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.01639458283217004,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UPPDC2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915050734515,
+    "lower_val": 0.999997919766957,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ARGDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.02710915271732938,
+    "upper_val": 0.9999978512688789,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UGMDDS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DTMPK": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.015942763620259925,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PROt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999980215273735,
+    "lower_val": 0.9999980215273735,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ANS2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 2.826481659164137,
+    "upper_val": 0.9999936730322736,
+    "lower_val": 0.99998999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ANPRT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 2.8264816591641364,
+    "upper_val": 0.9999936730322736,
+    "lower_val": 0.99998999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PROD2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 33.77020971856048,
+    "upper_val": 0.9999974350216243,
+    "lower_val": 1.0000000000000013,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HETZK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979245384455,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGSA_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0465812698358929,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EDD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 17.98494353669814,
+    "upper_val": 1.0000000000000018,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "EX_asp__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999969250497533,
+    "lower_val": 0.9999999824152278,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_no2_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PANTS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000038081905003736255,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTAN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0045181921191013155,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HSDy": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999993853364442,
+    "lower_val": 0.9999974705784385,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "GLUN"
+    ],
+    "val": 0.0,
+    "upper_val": 0.2090338770546639,
+    "lower_val": 0.00005395488456887291,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "ICHORS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736102136806,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTRI": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0045181921191013155,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OCBT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.830500741416628,
+    "upper_val": 0.9999901694894281,
+    "lower_val": 0.9999901694894281,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SPODM": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03011292339564638,
+    "upper_val": 0.9999947685714436,
+    "lower_val": 0.9999990957982064,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AOXSr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003872736102475625,
+    "upper_val": 0.9999978512688789,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SHSL2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "THRD_L"
+    ],
+    "val": 2.3283064365386963E-10,
+    "upper_val": 1.0000000000000013,
+    "lower_val": 1.0000000000000013,
+    "upper_names": [
+      "SHSL4r"
+    ]
+  },
+  "GMHEPPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.021687322171690036,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AMID5": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999994574457465,
+    "lower_val": 0.9999999675525862,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ad_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999959774112849,
+    "lower_val": 0.9999959774112849,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PASYN_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0970998213756033,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_na1_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_gln__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999953017724716,
+    "lower_val": 0.9999953017724716,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RNDR2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.016394582832169956,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HEMEti": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003863840736224641,
+    "upper_val": 0.9999979245384455,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGL": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 24.919519627167716,
+    "upper_val": 0.3376949274063435,
+    "lower_val": 0.00004382402661662501,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "RNDR4": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.01594276362025976,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACACt2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGI": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2",
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.2090338770388958,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "HMBS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003872723716971748,
+    "upper_val": 0.9999978512620838,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_cit_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999969250497533,
+    "lower_val": 0.9999999824152278,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PHETA1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999981289988308,
+    "lower_val": 0.000036005948006445106,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GCALDD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.03227280085072863,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PIt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.5980943889185427,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.9999979197603068,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GND": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 22.458617404408812,
+    "upper_val": 0.9999979448211465,
+    "lower_val": 0.00003908486017439724,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_nmn_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NARK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333289,
+    "lower_val": 0.9999979197603048,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CYSS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.056196628121373306,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PTPATi": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 17.984943538268613,
+    "upper_val": 0.9999880903268608,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "GLYt2r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DDPGA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997986134523,
+    "lower_val": 0.9999997269676602,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MAN6PI": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999938533644478,
+    "lower_val": 0.9999974705784371,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ALAR": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 9.999999998522197,
+    "upper_val": 0.9999971013445452,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "H2Ot": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.0000150332815550924,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_pyr_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999954748651999,
+    "lower_val": 0.9999954748651999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASNabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999899999900003,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "ARGSL": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.830500741416676,
+    "upper_val": 0.9999901694894281,
+    "lower_val": 0.9999901694894281,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "URIDK2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 26.977415303211874,
+    "upper_val": 0.9999880903268651,
+    "lower_val": 0.9999880903268651,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "PROt4": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999980215273735,
+    "lower_val": 0.9999980215273735,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTHFR2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03227280085072368,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RFAC_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830542922348,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KARA2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997924538448,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RPI": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -5.428950656731251E-9,
+    "upper_val": 0.9999999999999915,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "MALt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KDOPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "LPSSYN_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SHKK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 3.937388156201383,
+    "upper_val": 1.0000000000000007,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "PPPGO": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872723717558389,
+    "upper_val": 0.9999978512620887,
+    "lower_val": 0.9999979197669566,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DM_amob_c": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0000038727361025064775,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_adn_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999959774112849,
+    "lower_val": 0.9999959774112849,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ILETA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999957954050523,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "HSERTA",
+      "SHSL4r"
+    ]
+  },
+  "DMATT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00000387273610251035,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SUCFUMt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 107.90966122597798,
+    "upper_val": 0.9999999999999998,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DAPE": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222945,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_fum_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 11.988721804637215,
+    "upper_val": 0.9999953017724716,
+    "lower_val": 0.9999953017724716,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DBTS": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0000038638407367972415,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_mal__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 11.637035830588315,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MECDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003091072588748561,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.9999979245384487,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CYTDt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADSS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.23000608359106478,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591168,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NNDPR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0017620948062051878,
+    "upper_val": 0.999997851268887,
+    "lower_val": 0.9999979197603116,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADK1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 53.95483061278491,
+    "upper_val": 0.20903387705780824,
+    "lower_val": 0.00006586455770663789,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "PPM": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRPPS": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.826481657468192,
+    "upper_val": 0.9999985415883316,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NADK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0003420916890173324,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FORt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978713040998,
+    "lower_val": 0.9999999439433083,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NNATr": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0017620948062051878,
+    "upper_val": 0.999997851268887,
+    "lower_val": 0.9999979197603116,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UMPK": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.22661960749373974,
+    "upper_val": 0.9999915051333187,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ARGSS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.830500741416676,
+    "upper_val": 0.9999901694894281,
+    "lower_val": 0.9999901694894281,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FUM": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 36.02506926750362,
+    "upper_val": 1.0000000000000004,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "SHSL2r"
+    ]
+  },
+  "DDPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881561328528,
+    "upper_val": 0.999997986134523,
+    "lower_val": 0.9999997269676602,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DB4PS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000012879469122659815,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAGPT3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DADK": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.000012000012000012,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "NH4t"
+    ]
+  },
+  "OCTDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003834769771057904,
+    "upper_val": 0.9999976469801013,
+    "lower_val": 0.9999976469801013,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999880903268608,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "H2CO3TP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 2.3283064365386963E-10,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.0000150332815550924,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PEPT_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999921300252086,
+    "lower_val": 0.9999921300252086,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FTHFLi": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "FTHFD",
+      "FTHFLi"
+    ],
+    "val": 53.95483061480463,
+    "upper_val": 0.20903387703890014,
+    "lower_val": 0.0000539548845696892,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "LEUTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_fe3_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999942511443974,
+    "lower_val": 0.9999942511443974,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DADNt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.000012000012000012,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "NH4t"
+    ]
+  },
+  "ILEabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.17814586066809834,
+    "upper_val": 0.9999978512688793,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ORNTA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 10.000000000637304,
+    "upper_val": 0.9999979999980005,
+    "lower_val": 0.9999984224410648,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "G6PDH1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 24.919519641101797,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "SHSL2r"
+    ]
+  },
+  "EX_akg_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.005268272341462,
+    "upper_val": 0.999995727147621,
+    "lower_val": 0.999995727147621,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KAS_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "G5SADs": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 10.000000001470683,
+    "upper_val": 0.9999989397264786,
+    "lower_val": 0.9999999999999996,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GART": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.36155111016665353,
+    "upper_val": 0.9999978813614798,
+    "lower_val": 0.9999999442138992,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTRK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0045181921191013155,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TMDK1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979448211523,
+    "lower_val": 0.9999916868898441,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "METabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.19134414533190666,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADSL1r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.23000608359106448,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591168,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PHCD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.06061270231024462,
+    "upper_val": 0.9999978548069183,
+    "lower_val": 0.9999979232591168,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TKT2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 7.486205801877531,
+    "upper_val": 0.9999979448211523,
+    "lower_val": 0.9999916868898441,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GALt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688795,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NO3t3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 107.9096608759518,
+    "upper_val": 0.9999999999999983,
+    "lower_val": 0.9999999999999983,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GAPD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -6.153574921137713E-10,
+    "upper_val": 0.9999968807001037,
+    "lower_val": 0.9999968807001037,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAAGDS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "LPADSS_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_hxan_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.01481262842738878,
+    "upper_val": 0.9999978688195237,
+    "lower_val": 0.9999999438764611,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "IGPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.8264816592433446,
+    "upper_val": 0.9999957954050523,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "HSERTA",
+      "SHSL4r"
+    ]
+  },
+  "ME1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 4.818067753208564,
+    "upper_val": 0.9999999999999997,
+    "lower_val": 0.9999999999999997,
+    "upper_names": [
+      "HSERTA",
+      "SHSL4r"
+    ]
+  },
+  "AMAOTr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000002236079799567009,
+    "upper_val": 0.999994574457465,
+    "lower_val": 0.9999999675525862,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_phe__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.7528230865741365,
+    "upper_val": 0.9999962020037303,
+    "lower_val": 0.9999996141777823,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CTPS1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "CTPS1",
+      "DCTPD2"
+    ],
+    "val": 53.95483061479716,
+    "upper_val": 0.20903387703894244,
+    "lower_val": 0.00005395488456968173,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "FRD5": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 11.93943256261038,
+    "upper_val": 0.9999973588900151,
+    "lower_val": 0.9999973588900151,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLNabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "GLUN"
+    ],
+    "val": 0.0,
+    "upper_val": 0.2090338770546639,
+    "lower_val": 0.00005395488456887291,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "DHPTDCs": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0561966281824961,
+    "upper_val": 0.9999915051333284,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "BIOMASS_HP_published": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.6454560169149098,
+    "upper_val": 0.9999978512688814,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SHK3Dr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 3.937388156201383,
+    "upper_val": 1.0000000000000007,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "GLUt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512620887,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_orot_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999981089693454,
+    "lower_val": 0.9999981089693455,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DCYTt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "CTPS1",
+      "DCTPD2"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.000053954884569385824,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TRPt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999954279775958,
+    "lower_val": 0.9999988492400501,
+    "upper_names": [
+      "HSERTA",
+      "METB1"
+    ]
+  },
+  "U2GAAT2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPBNGS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000015490894870233564,
+    "upper_val": 0.9999978512620887,
+    "lower_val": 0.9999979197669566,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAPGR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GMPS2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 17.984943539219806,
+    "upper_val": 0.20903387680080812,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "ADMDC": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.004518192118859548,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "XANt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -6.568812160878679E-11,
+    "upper_val": 0.9999978512688791,
+    "lower_val": 0.9999979197603039,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "P5CD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.999999998350946,
+    "upper_val": 0.9999997975867077,
+    "lower_val": 0.9999997975867095,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASAD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999950771371265,
+    "lower_val": 0.9999950771371265,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MOAT_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830542921578,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP6": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "PUTA3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 10.000000000000002,
+    "upper_val": 0.9999984563119044,
+    "lower_val": 0.9999984563119044,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "UAMAGS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "LEUabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.2762551752316253,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PNTK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003808190500700153,
+    "upper_val": 0.9999978512688911,
+    "lower_val": 0.9999979197603068,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.40648128636381176,
+    "upper_val": 0.9999914447067494,
+    "lower_val": 0.9999979154467995,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDH_1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 34.726892513315924,
+    "upper_val": 0.9999959999960004,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TMDSf": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.015942763540310878,
+    "upper_val": 0.9999915051334586,
+    "lower_val": 0.9999979197603339,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_cytd_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "SHSL1"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "METB1"
+    ]
+  },
+  "GMAND": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.016265491628767528,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DSERt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DASYN_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 26.977415307476413,
+    "upper_val": 0.2090338769576084,
+    "lower_val": 0.00004204521143087391,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "BTS2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003872736102660045,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NTRARz": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999994629616612,
+    "lower_val": 0.9999995135843968,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SPMS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.004518192127051703,
+    "upper_val": 0.9999978512688789,
+    "lower_val": 0.9999979197602981,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ALAt2r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 9.999999998522197,
+    "upper_val": 0.9999971013445452,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DCTPD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.015938063039358654,
+    "upper_val": 0.9999978518890962,
+    "lower_val": 0.9999999438198849,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "IMPD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 17.984943536637576,
+    "upper_val": 0.9999999999999998,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GTPCI": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.03227280085072827,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_pro__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.000000059138983,
+    "upper_val": 0.9999979999980004,
+    "lower_val": 0.9999979999980004,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHDPRy": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222952,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "IMPC": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "THRD_L"
+    ],
+    "val": -2.8314559585851385E-11,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "HSERTA",
+      "SHSL4r"
+    ]
+  },
+  "PPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 53.95483059924877,
+    "upper_val": 0.2090338793334574,
+    "lower_val": 1.0000000000000127,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "EX_thr__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PAPSR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.014776187616293528,
+    "upper_val": 0.9999914337978536,
+    "lower_val": 0.9999979128027354,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_succ_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999959615692492,
+    "lower_val": 0.9999999995392901,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AHCYSNS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.056196628138422966,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ACS",
+      "PTAr"
+    ],
+    "val": 0.0,
+    "upper_val": 0.39638644917867927,
+    "lower_val": 0.00003708134197468371,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "EX_ser__D_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999954748651999,
+    "lower_val": 0.9999954748651999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHORTS": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": -6.456520580716887E-16,
+    "upper_val": 0.999987999988,
+    "lower_val": 0.000032203719293837833,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUR": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999947685713753,
+    "lower_val": 0.999999095798157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "C190cSN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0970998213899611,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GNNUC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979448211465,
+    "lower_val": 0.00003908486017439724,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DURIPP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": -1.3877787807814457E-17,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TRPS2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.8264816590690662,
+    "upper_val": 0.999995795405048,
+    "lower_val": 1.0000000000000009,
+    "upper_names": [
+      "HSERTA",
+      "METB1"
+    ]
+  },
+  "ATPS4r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1"
+    ],
+    "val": 60.06022584608563,
+    "upper_val": 0.2000000001751167,
+    "lower_val": 0.9999382107286754,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "ASNS2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "HCO3E"
+    ],
+    "val": 26.97741530727905,
+    "upper_val": 0.9999899999900003,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "CAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.03116694673572063,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FE2abc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003782169539918052,
+    "upper_val": 0.9999979684081205,
+    "lower_val": 0.9999999451175132,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TPI": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -3.855771884684849E-10,
+    "upper_val": 0.9999904097088845,
+    "lower_val": 0.9999904097088845,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ac_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999990567094502,
+    "lower_val": 0.9999999999999997,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "C140SN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.10252165193368516,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MAN1PT2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.016265491619516206,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PTAr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.999999788911886,
+    "lower_val": 0.9999997889118859,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_acac_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999990567094502,
+    "lower_val": 0.9999999999999997,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EHGLAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000018,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "KAS_HP2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.010843661079677477,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK8": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.015942763620270934,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CHORS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881564061324,
+    "upper_val": 0.9999979861345227,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FRDO": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222895,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADSL2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.36373805300699524,
+    "upper_val": 0.9999978688195229,
+    "lower_val": 0.9999979076553047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "URIt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999880903268651,
+    "lower_val": 0.9999880903268651,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "UAGDP2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_glc__D_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999953017724716,
+    "lower_val": 0.9999953017724716,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGPP_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0465812698358929,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GFUCS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.016265491628767215,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_fe2_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999942511443974,
+    "lower_val": 0.9999942511443974,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DAAD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 20.0,
+    "upper_val": 0.000012000012000012,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "NH4t"
+    ]
+  },
+  "ACPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 17.984943538268507,
+    "upper_val": 0.2090338770388976,
+    "lower_val": 0.00004204521143040592,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "CYTK1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 26.97741530943607,
+    "upper_val": 1.0000000000000013,
+    "lower_val": 0.9999999999999997,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLYK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.01801274106682601,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KAS14": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.21588696487498482,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "THMDt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DURIt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": -5.0333523076159896E-18,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "BC10_new": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1"
+    ],
+    "val": 24.09033877038895,
+    "upper_val": 0.2000000001751167,
+    "lower_val": 0.9999382107286754,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "EX_gua_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999972855895534,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TRDR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.07920779860056537,
+    "upper_val": 0.9999914337978534,
+    "lower_val": 0.9999979128027354,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NAt3_1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999915051333289,
+    "lower_val": 0.9999979197603048,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_xan_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997999998,
+    "lower_val": 0.999997999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_gsn_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999972855895534,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "BACCL": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1"
+    ],
+    "val": 0.0,
+    "upper_val": 0.2000000001751167,
+    "lower_val": 0.9999382107286754,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "THRD_L": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 999999.0000000005,
+    "upper_val": 1.0000000000000004,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "EX_orn_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.000000000023999,
+    "upper_val": 0.9999981089693454,
+    "lower_val": 0.9999981089693455,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SHSL4r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -1.9696735735486026E-10,
+    "upper_val": 0.9999950101054853,
+    "lower_val": 0.999999815165307,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRAIi": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.8264816589294215,
+    "upper_val": 0.9999916730302746,
+    "lower_val": 0.9999999999999997,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAGDP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.051894663750926606,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ser__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999973621921053,
+    "lower_val": 0.9999973621921053,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CDAPPA_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 26.977415365086955,
+    "upper_val": 0.9999999999999989,
+    "lower_val": 0.999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PIMEtr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736101328215,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.9999979197603068,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAGAAT_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FBA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -1.1102123282851037E-14,
+    "upper_val": 0.999995528345978,
+    "lower_val": 0.999995528345978,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ARGt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.00000000000005,
+    "upper_val": 0.9999951410861009,
+    "lower_val": 0.9999951410861009,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUPRT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.3637380530515849,
+    "upper_val": 0.999997868819523,
+    "lower_val": 0.9999999438764613,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "C160SN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.010843661071603117,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KDOCT2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_gal_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -5.1698788284564184E-26,
+    "upper_val": 0.9999953017724716,
+    "lower_val": 0.9999953017724716,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MECDPDH": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003091072588748561,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.9999979245384487,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UREAt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999936185632547,
+    "lower_val": 0.9999936185632547,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "XPPT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -6.568812160878679E-11,
+    "upper_val": 0.9999978512688791,
+    "lower_val": 0.9999979197603039,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLNS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "GLUN"
+    ],
+    "val": 53.95483061390232,
+    "upper_val": 0.2090338770546639,
+    "lower_val": 0.00005395488456887291,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "NADPHQR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 33.77020971577058,
+    "upper_val": 0.9999974350216323,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SHSL1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 999999.0,
+    "upper_val": 1.0000000000000007,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "DHQTi": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881564061994,
+    "upper_val": 0.99998772695566,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASPt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999931091593981,
+    "lower_val": 1.0000000000000047,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "NIabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999879548185696,
+    "lower_val": 0.9999939849375232,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHFS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032272800850801864,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "O2t": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999994629616612,
+    "lower_val": 0.9999995135843968,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_for_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.014831933391994703,
+    "upper_val": 0.9999978512689235,
+    "lower_val": 0.9999999438033165,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHQS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881564061994,
+    "upper_val": 0.99998772695566,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 26.99435382616103,
+    "upper_val": 0.21355081556231018,
+    "lower_val": 0.000042109201456438885,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "GLUN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 53.9548306142187,
+    "upper_val": 0.2090338770494374,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "EX_aa_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.29667572989626495,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "H2CO3D": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999879999880004,
+    "lower_val": 0.9999999770754091,
+    "upper_names": [
+      "H2CO3D2"
+    ]
+  },
+  "EX_ala__D_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": -7.105427357601002E-15,
+    "upper_val": 0.9999941708078023,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASNt2r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999899999900003,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "KAS15": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.21588696487498482,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTHFD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.690713661877631,
+    "upper_val": 0.999997868819523,
+    "lower_val": 0.9999979076553047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OOR3r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822284073,
+    "upper_val": 0.9999975109014951,
+    "lower_val": 0.9999975109014958,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AGMT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.027109152713157295,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPCDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003808190500367903,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TRPS1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.8264816590690662,
+    "upper_val": 0.999995795405048,
+    "lower_val": 1.0000000000000009,
+    "upper_names": [
+      "HSERTA",
+      "METB1"
+    ]
+  },
+  "CPPPGO": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003872723717556169,
+    "upper_val": 0.9999915050734658,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KARA1": {
+    "bounds": [
+      -999999.0,
+      0.0
+    ],
+    "lower_names": [
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997924538448,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPNCL2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003808190500367903,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "APRAUR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000006454559193957987,
+    "upper_val": 0.9999978512688789,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "KDOPP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830539838735,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACP1_FMN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ACP1_FMN",
+      "RBFK"
+    ],
+    "val": 53.954830614805516,
+    "upper_val": 0.20903387703889553,
+    "lower_val": 0.000053954884569690085,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "DM_hmfurn_c": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.056196628138422966,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CYOO_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "CTPS1"
+    ],
+    "val": 12.045169385194486,
+    "upper_val": 0.2090338770388856,
+    "lower_val": 0.000053954884569681906,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "GUAt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PHCHGS": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DKMPPD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.004518192119590891,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_pi_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 1.13242748511766E-14,
+    "upper_val": 0.9999962020037303,
+    "lower_val": 0.9999996141777823,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "METAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.10162575894778078,
+    "upper_val": 0.9999978512688801,
+    "lower_val": 0.9999979197603046,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_pime_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999962020037303,
+    "lower_val": 0.9999996141777823,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AMAA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999971013445452,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GK1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.17970140969702703,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RNDR1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.015942763620259762,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "BPNT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 17.98494353826856,
+    "upper_val": 0.2090338770389005,
+    "lower_val": 0.00004204521143040592,
+    "upper_names": [
+      "EX_ala__L_e"
+    ]
+  },
+  "PGM": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 26.98306148054366,
+    "upper_val": 0.19999999999999946,
+    "lower_val": 0.000042101673218343996,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "FEDCabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979684081205,
+    "lower_val": 0.9999999451175132,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UDCPDP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OPHBDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999975109014951,
+    "lower_val": 0.9999975109014958,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLYCTO1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.03227280085072918,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASPK": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 13.70395217893417,
+    "upper_val": 0.9999988605558813,
+    "lower_val": 0.9999988605558813,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_nh4_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NMNAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999879548185696,
+    "lower_val": 0.9999939849375232,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UPPDC1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872723715817978,
+    "upper_val": 0.9999915050734515,
+    "lower_val": 0.999997919766957,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FBA2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999995528345978,
+    "lower_val": 0.999995528345978,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UDPG4E": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.016265491623424756,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP5": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "SHCHCS2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736102956083,
+    "upper_val": 0.9999978512688786,
+    "lower_val": 0.9999979197603047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SERt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000113,
+    "lower_val": 1.0000000000000124,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FADOX": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 33.77020971500187,
+    "upper_val": 0.999997435021633,
+    "lower_val": 0.999997435021633,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGK": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 18.003764115583675,
+    "upper_val": 0.2000000001773344,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "ALCD2y": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999971013445452,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGMT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.19999999999999946,
+    "lower_val": 0.000042101673218343996,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "G6PDH2r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 24.919519627168217,
+    "upper_val": 0.3376949274005746,
+    "lower_val": 0.00004382402661662648,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "NDPK2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.29314421206072416,
+    "upper_val": 0.9999915076512765,
+    "lower_val": 0.9999979203736438,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHNAOT2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003872736102100111,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MDH4": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 36.596099007617504,
+    "upper_val": 0.9999969131941294,
+    "lower_val": 0.9999969131941302,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_so4_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999973621921056,
+    "lower_val": 0.9999973621921056,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AKGt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 1.317427793500205E-10,
+    "upper_val": 0.9999949522144234,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRAIS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.36373805305152324,
+    "upper_val": 0.9999978688195229,
+    "lower_val": 0.9999979076553046,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GUAPRT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SK_ahcys_c": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.055529503758307786,
+    "upper_val": 0.999997844398974,
+    "lower_val": 0.999997912802737,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASPO2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0017620949166112184,
+    "upper_val": 0.9999978512689036,
+    "lower_val": 0.9999999438033152,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "SULabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.014776187619540191,
+    "upper_val": 0.9999978443989668,
+    "lower_val": 0.9999979128027352,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RBFSa": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000012909120340291305,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_no_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_uri_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997999998,
+    "lower_val": 0.999997999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NH4t": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 8.015056461731497,
+    "upper_val": 0.9999879548185696,
+    "lower_val": 0.9999939849375232,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "THRt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 4.656612873077393E-10,
+    "upper_val": 1.0000000000000004,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "SERAT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.05619662639219314,
+    "upper_val": 0.9999978512688923,
+    "lower_val": 0.99999791976031,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACONT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 9.155762681356753,
+    "upper_val": 0.5954830614389433,
+    "lower_val": 0.00003511295857627881,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "NO3t2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 107.9096608759518,
+    "upper_val": 0.9999999999999983,
+    "lower_val": 0.9999999999999983,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK3": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 26.977415306725643,
+    "upper_val": 0.20903387720415356,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "AMID4": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999994574457465,
+    "lower_val": 0.9999999675525862,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "LYSt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CBPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.830500741416676,
+    "upper_val": 0.9999901694894281,
+    "lower_val": 0.9999901694894281,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EDA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 17.98494353669814,
+    "upper_val": 1.0000000000000018,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "OMBZLM": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999976469801013,
+    "lower_val": 0.9999976469801013,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_thymd_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 1.390797215991662E-12,
+    "upper_val": 0.11805464522280733,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "GALUi": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0344673513063111,
+    "upper_val": 0.9999978512688795,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_urea_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.999997999998,
+    "lower_val": 0.999997999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CLPNS_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.018012741066825377,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "U2GAAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SDPTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999995909657139,
+    "lower_val": 0.999995909657139,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "CDPMEK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000030981888816443494,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "C181SN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0970998213899611,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032272800857575466,
+    "upper_val": 0.9999915051333284,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRFGS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.36373805266327675,
+    "upper_val": 0.9999978688195217,
+    "lower_val": 0.9999979076553047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CHCOAL": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0000038727361020873936,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "L_LACt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "S7PI": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.021687322150236395,
+    "upper_val": 0.9999978512688845,
+    "lower_val": 0.9999979197603063,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SUCBZL": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736102055405,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACCOAC": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 1.5274742458020272,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SUCCt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 107.90966122597798,
+    "upper_val": 0.9999999999999998,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ile__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999981289988308,
+    "lower_val": 0.00003600594800645177,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GARFT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.3637380530515899,
+    "upper_val": 0.999997868819523,
+    "lower_val": 0.9999999438764613,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK4": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.015942763620259842,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AAtr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RBFK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 53.95483039774731,
+    "upper_val": 0.9999999999999994,
+    "lower_val": 1.0000000000000009,
+    "upper_names": [
+      "ACKr"
+    ]
+  },
+  "ALAD_L": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 19.999999999999993,
+    "upper_val": 0.9999945981801015,
+    "lower_val": 0.9999991825780842,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DXPRIi": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003091072589559795,
+    "upper_val": 0.9999979245384488,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_thm_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999959227755054,
+    "lower_val": 0.9999959227755054,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_glu__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999972855895537,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ARGN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 16.355423747505426,
+    "upper_val": 0.9999936445698953,
+    "lower_val": 0.9999936445698969,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ORPT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 9.09510244895273E-11,
+    "upper_val": 0.9999979999980005,
+    "lower_val": 0.9999984224410648,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TYRTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979267336057,
+    "lower_val": 0.9999979267336065,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "NO": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997851268887,
+    "lower_val": 0.9999979197603116,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FBP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 18.0037641154301,
+    "upper_val": 0.20000000000000034,
+    "lower_val": 0.00004210167321835237,
+    "upper_names": [
+      "EX_ala__L_e"
+    ]
+  },
+  "DURIK1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": -1.3877787807814457E-17,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TKT1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 7.486205801877524,
+    "upper_val": 0.9999979448211523,
+    "lower_val": 0.9999916868898441,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CCP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.06224642959107389,
+    "upper_val": 0.9999915074977913,
+    "lower_val": 0.9999999438196456,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AGMHE": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.010843661085262917,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DNMPPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0322728008542206,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASPCT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.2033831909612902,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FUMt3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 107.90966122997935,
+    "upper_val": 0.20903387700872944,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "RHCCE": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.056196628138422966,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHORD3": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.2033831909617546,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_h_e": {
+    "bounds": [
+      -12.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999956850707029,
+    "lower_val": 0.9999999902355511,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GALT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.3376949274005746,
+    "lower_val": 0.00004382402661662648,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "ASNN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "HCO3E"
+    ],
+    "val": 26.97741530727905,
+    "upper_val": 0.9999899999900003,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "PPND": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.937388156406174,
+    "upper_val": 0.9999979861345227,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SPRMS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999947685714436,
+    "lower_val": 0.9999990957982064,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_pheme_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999962020037303,
+    "lower_val": 0.9999996141777823,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HPPK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032234311773817005,
+    "upper_val": 0.9999978537776173,
+    "lower_val": 0.9999999438703367,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PYRDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 18.301778729056494,
+    "upper_val": 0.9999929783677662,
+    "lower_val": 0.9999932931219374,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "G1PACT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.051894663792473816,
+    "upper_val": 0.9999978512688794,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_h2co3_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999868620609912,
+    "lower_val": 0.9999999999999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP7": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "PPNDH": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.752823086574631,
+    "upper_val": 0.9999962020037303,
+    "lower_val": 0.9999996141777823,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 9.155762681484136,
+    "upper_val": 0.9999887921151099,
+    "lower_val": 0.9999990519199458,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RPE": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 14.972411605456921,
+    "upper_val": 0.9999916868898469,
+    "lower_val": 1.000000000000001,
+    "upper_names": [
+      "HSERTA",
+      "METB1"
+    ]
+  },
+  "LDH_D1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UPP3S": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872723715817978,
+    "upper_val": 0.9999915050734515,
+    "lower_val": 0.999997919766957,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PSSA_HP": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.05051855154022038,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603045,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HISabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.05809104152251147,
+    "upper_val": 0.999997851268875,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DPCOAK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 17.98494353993643,
+    "upper_val": 1.0000000000000007,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHPPDA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000006454560171514854,
+    "upper_val": 0.9999915051333284,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAGCVT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_no3_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "4HGLSD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999987983479904,
+    "lower_val": 0.9999987983479904,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MOHMT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003808190500373079,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_lac__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999965863033444,
+    "lower_val": 0.9999965863033446,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ETOHt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 0.0,
+    "upper_val": 0.29667572989626495,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "FORAMD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978537776221,
+    "lower_val": 0.9999999438703367,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "QULNS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0017620949174970342,
+    "upper_val": 0.9999978512688871,
+    "lower_val": 0.9999979197603113,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222952,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADCL": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03227280085072808,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RNDR3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03232781207578404,
+    "upper_val": 0.9999978518890962,
+    "lower_val": 0.9999979203736443,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DHNPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032272800850801864,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP3": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "EX_ade_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 2.4152937603594502E-32,
+    "upper_val": 0.9999959774112849,
+    "lower_val": 0.9999959774112849,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DXPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003091072589559795,
+    "upper_val": 0.9999979245384488,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HYDA1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591167,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NMNTP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999879548185696,
+    "lower_val": 0.9999939849375232,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PUNP4": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "SHSL1",
+      "THRD_L",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999795,
+    "lower_val": 0.9999880903268608,
+    "upper_names": [
+      "EX_o2_e"
+    ]
+  },
+  "SDPDS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389823264544,
+    "upper_val": 0.9999975109014966,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CYSabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADNUC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GRTT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0000038727361020912704,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "RFA_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830542922348,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DALAt2r": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.0,
+    "upper_val": 0.000012000012000012,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "NH4t"
+    ]
+  },
+  "EX_his__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999960902216544,
+    "lower_val": 0.9999960902216544,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AHSERL2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999949522144239,
+    "lower_val": 0.999998549084649,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UPPRT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -4.748555942294974E-11,
+    "upper_val": 0.9999915050734521,
+    "lower_val": 0.999997919766957,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK7": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03232781207580665,
+    "upper_val": 0.9999978518890963,
+    "lower_val": 0.9999979203736443,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUDy": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 13.382301908043717,
+    "upper_val": 0.9999997061882544,
+    "lower_val": 0.9999997061882544,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TRPS3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 2.8264816590690662,
+    "upper_val": 0.999995795405048,
+    "lower_val": 1.0000000000000009,
+    "upper_names": [
+      "HSERTA",
+      "METB1"
+    ]
+  },
+  "METB1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -2.3283064365386963E-10,
+    "upper_val": 0.9999997289834194,
+    "lower_val": 0.9999997289834194,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "P5CR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 33.77020971589581,
+    "upper_val": 0.9999974350216327,
+    "lower_val": 0.9999974350216327,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PSP_D": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.000042045211430332946,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "URAt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915050734521,
+    "lower_val": 0.999997919766957,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PSCVT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881563506696,
+    "upper_val": 0.9999979861345228,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SULR": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.014776187619540191,
+    "upper_val": 0.9999978443989668,
+    "lower_val": 0.9999979128027352,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ura_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979861345227,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ala__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 1.7475798586019664E-11,
+    "upper_val": 0.9999939375552878,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "VALTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003808190501314346,
+    "upper_val": 0.9999978512688791,
+    "lower_val": 0.9999979197603039,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_etoh_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999942511443974,
+    "lower_val": 0.9999942511443974,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PSD_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.048340782939076066,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603045,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MTHFC": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.690713661877631,
+    "upper_val": 0.999997868819523,
+    "lower_val": 0.9999979076553047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DMPPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00000387273610251035,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGCD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2",
+      "HCO3E"
+    ],
+    "val": 26.97741530740264,
+    "upper_val": 0.2090338770388958,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "EX_gly_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999972855895534,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CHORM": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 3.9373881564061324,
+    "upper_val": 0.9999979861345227,
+    "lower_val": 0.9999997269676599,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FOLD3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032234311778548276,
+    "upper_val": 0.9999978537776221,
+    "lower_val": 0.9999999438703367,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACKr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0160483717918396,
+    "upper_val": 0.999998339938672,
+    "lower_val": 0.999998339938672,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_leu__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999965863033444,
+    "lower_val": 0.9999965863033446,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PTAr"
+    ],
+    "val": 53.95483061480555,
+    "upper_val": 0.20903387703889553,
+    "lower_val": 0.0000658645577089743,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "GTMLT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GHMT2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.7389045012228137,
+    "upper_val": 0.999997868819523,
+    "lower_val": 0.9999999438764613,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ICDHyr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "THRD_L"
+    ],
+    "val": 9.155762681484175,
+    "upper_val": 0.9999983115236746,
+    "lower_val": 0.9999983115236746,
+    "upper_names": [
+      "HSERTA",
+      "SHSL4r"
+    ]
+  },
+  "ORNt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 2.6712143608165206E-10,
+    "upper_val": 0.9999979999980005,
+    "lower_val": 0.9999984224410648,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACOATA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.21588696488241188,
+    "upper_val": 0.9999978512688807,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADNt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PDH2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 14.2986198243413,
+    "upper_val": 0.9999921300252086,
+    "lower_val": 0.9999921300252086,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ALAALAr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.01781458606960208,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ANS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 2.686035365541074,
+    "upper_val": 0.9999945859340953,
+    "lower_val": 0.99998999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_dad_2_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999941067940233,
+    "lower_val": 0.9999941067940233,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DCTPD2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "CTPS1",
+      "DCTPD2"
+    ],
+    "val": 53.954830614501255,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.000053954884569385824,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HSERTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999938533644422,
+    "lower_val": 0.9999974705784386,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HCO3E": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 999999.0,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.0000150332815550924,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UNK2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.004518192117617988,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "SUCBZS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736102055405,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FCLT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000003782169539918052,
+    "upper_val": 0.9999979684081205,
+    "lower_val": 0.9999999451175132,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UDCPDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADSK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.014776187564353926,
+    "upper_val": 0.9999978443989676,
+    "lower_val": 0.9999979128027356,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADEt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978548069183,
+    "lower_val": 0.9999979232591168,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "THMabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000003872736102085641,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "G3PD1ir": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 43.011292346861055,
+    "upper_val": 0.9999999999999996,
+    "lower_val": 0.9999999999999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GMHEPAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.021687322171690036,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLCt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "THRS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 999999.0,
+    "upper_val": 1.0000000000000004,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "RBFSb": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0000064545601701456525,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MCOATA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 1.5274742461973838,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_tyr__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 3.937388156311526,
+    "upper_val": 0.9999979861345228,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "H2CO3D2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.999987999988,
+    "lower_val": 0.0000261988544189094,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACACT1r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FMNAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000006439734561327724,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GTPCII": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000006454560170145399,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_lys__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389820496928,
+    "upper_val": 0.9999975109014975,
+    "lower_val": 0.9999975109014975,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PGAMT": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999921300252086,
+    "lower_val": 0.9999921300252086,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_ni2_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_cys__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "SHSL1"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "METB1"
+    ]
+  },
+  "G1SAT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.000030981789760410735,
+    "upper_val": 0.999997851262088,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DUTPDP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 26.97741530488906,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 1.0000000000000007,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "NPHS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 9.055491401240625E-7,
+    "upper_val": 0.9999994629616612,
+    "lower_val": 0.9999995135843968,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_asn__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948944650026,
+    "lower_val": 0.9999948944650026,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "CO2t": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 1.1903176985444233E-16,
+    "upper_val": 0.9999868681510724,
+    "lower_val": 0.999999969640426,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PSERT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 26.977415307437536,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.000042045211430332946,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPM2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AMID2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999994574457465,
+    "lower_val": 0.9999999675525862,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ALAt4": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 9.999999998603016,
+    "upper_val": 0.9999971013445452,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PMANM": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999981289988308,
+    "lower_val": 0.00003600594800645837,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DPR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003808190500394215,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UAMAS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586063750925,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FCLPA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.20000000000000034,
+    "lower_val": 0.00004210167321835237,
+    "upper_names": [
+      "EX_ala__L_e"
+    ]
+  },
+  "HBZOPT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.0000150332815550924,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_dcyt_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999941067940233,
+    "lower_val": 0.9999941067940233,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DNTPPA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0322728008542206,
+    "upper_val": 0.999991505133331,
+    "lower_val": 0.9999999438033156,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADPT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.06071482023721721,
+    "upper_val": 0.9999978512688797,
+    "lower_val": 0.9999979197603042,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MEPCT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.00003091072588748561,
+    "upper_val": 0.9999979245384487,
+    "lower_val": 0.9999979245384487,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ENO": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": -1.1641532182693452E-10,
+    "upper_val": 0.4971043771040667,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "SERD_L": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 26.977415283282575,
+    "upper_val": 1.0000000000000113,
+    "lower_val": 1.0000000000000124,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_co2_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "SHSL1"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "METB1"
+    ]
+  },
+  "SADT2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.014776187230661372,
+    "upper_val": 0.9999978443989724,
+    "lower_val": 0.9999979128027378,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UHGADA_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TMPPP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051334586,
+    "lower_val": 0.9999979197603339,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HYXNt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -5.23192600354605E-15,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591167,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_trp__L_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2",
+      "H2CO3D2"
+    ],
+    "val": 2.8264816590739934,
+    "upper_val": 0.9999985415883272,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GLUTRR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003098178973977641,
+    "upper_val": 0.9999978512620887,
+    "lower_val": 0.9999999438034954,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HSK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "SHSL1"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999999999999983,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "IPDPS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1",
+      "PROt4"
+    ],
+    "val": 0.000027046885151581153,
+    "upper_val": 0.999997924538448,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HEX1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979245384455,
+    "lower_val": 0.999999943932395,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "UREA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.351317440399981,
+    "upper_val": 0.9999936185632547,
+    "lower_val": 0.9999936185632547,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "USHD_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830544261686,
+    "upper_val": 0.9999978512688791,
+    "lower_val": 0.9999979197603039,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DGK1": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997986134523,
+    "lower_val": 0.9999997269676602,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "MALS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03227280084344684,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "FTHFD": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "FTHFD",
+      "FTHFLi"
+    ],
+    "val": 53.95483061480463,
+    "upper_val": 0.20903387703890014,
+    "lower_val": 0.0000539548845696892,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "U23GAAT_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541141585,
+    "upper_val": 0.9999915051333186,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AIRC3": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": -1.7984948970244342E-13,
+    "upper_val": 0.9999949522144234,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "LacR": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688837,
+    "lower_val": 0.999997919760303,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ACALDt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_duri_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": -4.114993590373017E-31,
+    "upper_val": 0.9999941067940233,
+    "lower_val": 0.9999941067940233,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AMMQT6": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0000022360797995485578,
+    "upper_val": 0.999994574457465,
+    "lower_val": 0.9999999675525862,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "AICART": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.3637380530669688,
+    "upper_val": 0.9999978688195226,
+    "lower_val": 0.9999999438764615,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OMPDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.20338319096126403,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ADtr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591168,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DAPDC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 10.133389822222945,
+    "upper_val": 0.9999975109014961,
+    "lower_val": 0.9999975109014961,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRAGSr": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.36373805305152324,
+    "upper_val": 0.9999978688195229,
+    "lower_val": 0.9999979076553046,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HPROx": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999978537776173,
+    "lower_val": 0.9999999438703367,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GMPR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 17.984943539227764,
+    "upper_val": 0.20903387680154317,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "NADS1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0017620949198842567,
+    "upper_val": 0.9999915051333289,
+    "lower_val": 0.9999979197603048,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GMHEPK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.021687322171690036,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASP1DC": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.00003808190500387276,
+    "upper_val": 0.9999978512688799,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "VALabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.2595114008089653,
+    "upper_val": 0.9999978512688791,
+    "lower_val": 0.9999979197603039,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TYRt2r": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "THRS"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979267336057,
+    "lower_val": 0.9999979267336065,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "AKO": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 8.046414861204177,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.9999980152680628,
+    "upper_names": [
+      "SHSL2r"
+    ]
+  },
+  "THZSN": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HSK",
+      "PTAr",
+      "SHSL1",
+      "THRD_L"
+    ],
+    "val": 0.0,
+    "upper_val": 1.0000000000000004,
+    "lower_val": 1.0000000000000004,
+    "upper_names": [
+      "HSERTA",
+      "METB1",
+      "SHSL4r"
+    ]
+  },
+  "EX_h2o_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999932100699486,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "DAGK_HP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.000012000012000012,
+    "lower_val": 1.0000000000000002,
+    "upper_names": [
+      "NH4t"
+    ]
+  },
+  "ASPT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 33.77020971500268,
+    "upper_val": 0.999997435021633,
+    "lower_val": 0.999997435021633,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_o2_e": {
+    "bounds": [
+      -12.0,
+      0.0
+    ],
+    "lower_names": [
+      "BC10_new"
+    ],
+    "val": -2.841240232734639E-10,
+    "upper_val": 7.338361029951557E-11,
+    "lower_val": 5.703875681762034E-16,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "DHFR": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.032272800850801864,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NOt": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999999999999983,
+    "lower_val": 0.9999999999999983,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PROabc": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "NAt3_1"
+    ],
+    "val": 71.93977415540509,
+    "upper_val": 0.2090338771716759,
+    "lower_val": 0.999938060163904,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "PSP_L": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 26.977415307437536,
+    "upper_val": 1.0000000000000002,
+    "lower_val": 0.000042045211430332946,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "TALA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 7.486205802039177,
+    "upper_val": 0.9999999999999999,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PMDPHT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.000006454560170650253,
+    "upper_val": 0.9999978512688911,
+    "lower_val": 0.9999979197603068,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "A5PISO": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.005421830541903598,
+    "upper_val": 0.9999915051333254,
+    "lower_val": 0.9999979197603043,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PYRt2": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999929783677662,
+    "lower_val": 0.9999932931219374,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PRASCSi": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.36373805266327675,
+    "upper_val": 0.9999978688195217,
+    "lower_val": 0.9999979076553047,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PPTGS": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.017814586069599164,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "OROATP": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "PROt4"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999979999980005,
+    "lower_val": 0.9999984224410648,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "NDPK6": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "HCO3E"
+    ],
+    "val": 26.97741530891992,
+    "upper_val": 0.20903387702198337,
+    "lower_val": 0.9999999999999999,
+    "upper_names": [
+      "EX_ala__D_e"
+    ]
+  },
+  "PAPPT3": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.01781458606960203,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HXPRT": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.06061270231546759,
+    "upper_val": 0.9999978548069184,
+    "lower_val": 0.9999979232591167,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_acald_e": {
+    "bounds": [
+      0.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 12.0,
+    "upper_val": 0.9999959774112849,
+    "lower_val": 0.9999959774112849,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_val__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.999997999998,
+    "lower_val": 0.999997999998,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PMPK": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999978512688911,
+    "lower_val": 0.9999979197603068,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GSNt2": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "ASPTA": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 8.731149137020121E-9,
+    "upper_val": 0.9999931091593981,
+    "lower_val": 1.0000000000000047,
+    "upper_names": [
+      "PROt2r"
+    ]
+  },
+  "MDRPD": {
+    "bounds": [
+      -999999.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.004518192119101864,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "PABB": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.03227280085072827,
+    "upper_val": 0.9999915051333286,
+    "lower_val": 0.9999979197603044,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GALKr": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "ATPS4r"
+    ],
+    "val": 0.0,
+    "upper_val": 0.3376949274005746,
+    "lower_val": 0.00004382402661662648,
+    "upper_names": [
+      "EX_arg__L_e"
+    ]
+  },
+  "OCOAT1": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 2.524354896707301E-29,
+    "upper_val": 0.9999901694894281,
+    "lower_val": 0.9999901694894281,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "HPROa": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 999999.0,
+    "upper_val": 0.9999978537776173,
+    "lower_val": 0.9999999438703367,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "EX_met__L_e": {
+    "bounds": [
+      -10.0,
+      12.0
+    ],
+    "lower_names": [
+      "H2CO3D2"
+    ],
+    "val": 0.0,
+    "upper_val": 0.9999948461171458,
+    "lower_val": 0.9999948461171461,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  },
+  "GF6PTA": {
+    "bounds": [
+      0.0,
+      999999.0
+    ],
+    "lower_names": [
+      "AHSERL2"
+    ],
+    "val": 0.05731649431089399,
+    "upper_val": 0.99999785126888,
+    "lower_val": 0.9999999438033157,
+    "upper_names": [
+      "H2CO3D"
+    ]
+  }
+}

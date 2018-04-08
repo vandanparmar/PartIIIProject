@@ -1,0 +1,108 @@
+  0%|          | 0/13 [00:00<?, ?it/s]                                        0%|          | 0/13 [00:00<?, ?it/s]Positive
+                                        0%|          | 0/13 [00:28<?, ?it/s]                                        0%|          | 0/13 [00:40<?, ?it/s]                                        0%|          | 0/13 [00:53<?, ?it/s]                                        0%|          | 0/13 [01:04<?, ?it/s]                                        0%|          | 0/13 [01:15<?, ?it/s]                                        0%|          | 0/13 [01:26<?, ?it/s]                                        0%|          | 0/13 [01:37<?, ?it/s]                                        0%|          | 0/13 [01:48<?, ?it/s]                                        0%|          | 0/13 [02:01<?, ?it/s]                                        0%|          | 0/13 [02:13<?, ?it/s]                                        0%|          | 0/13 [02:23<?, ?it/s]                                        0%|          | 0/13 [02:35<?, ?it/s]                                        0%|          | 0/13 [02:46<?, ?it/s]                                        0%|          | 0/13 [02:57<?, ?it/s]                                        0%|          | 0/13 [03:08<?, ?it/s]                                        0%|          | 0/13 [03:20<?, ?it/s]                                        0%|          | 0/13 [03:31<?, ?it/s]                                        0%|          | 0/13 [03:42<?, ?it/s]                                        0%|          | 0/13 [03:53<?, ?it/s]Traceback (most recent call last):
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_is_mode_type
+  File "<frozen importlib._bootstrap_external>", line 75, in _path_stat
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/lib/python3/dist-packages/mpl_toolkits/__init__.so'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "batch.py", line 4, in <module>
+    import cobra
+  File "/usr/local/lib/python3.5/dist-packages/cobra/__init__.py", line 14, in <module>
+    from cobra.util.version_info import show_versions
+  File "/usr/local/lib/python3.5/dist-packages/cobra/util/version_info.py", line 13, in <module>
+    import pip
+  File "/usr/local/lib/python3.5/dist-packages/pip/__init__.py", line 43, in <module>
+    from pip.utils import get_installed_distributions, get_prog
+  File "/usr/local/lib/python3.5/dist-packages/pip/utils/__init__.py", line 27, in <module>
+    from pip._vendor import pkg_resources
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 3020, in <module>
+    @_call_aside
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 3006, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 3048, in _initialize_master_working_set
+    dist.activate(replace=False)
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 2577, in activate
+    fixup_namespace_packages(self.location)
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 2165, in fixup_namespace_packages
+    subpath = _handle_ns(package, path_item)
+  File "/usr/local/lib/python3.5/dist-packages/pip/_vendor/pkg_resources/__init__.py", line 2076, in _handle_ns
+    loader = importer.find_module(packageName)
+  File "<frozen importlib._bootstrap_external>", line 412, in _find_module_shim
+  File "<frozen importlib._bootstrap_external>", line 1205, in find_loader
+  File "<frozen importlib._bootstrap_external>", line 1240, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 89, in _path_isfile
+  File "<frozen importlib._bootstrap_external>", line 81, in _path_is_mode_type
+KeyboardInterrupt
+                                        0%|          | 0/13 [04:06<?, ?it/s]                                        0%|          | 0/13 [04:18<?, ?it/s]                                        0%|          | 0/13 [04:31<?, ?it/s]                                        0%|          | 0/13 [04:51<?, ?it/s]                                        0%|          | 0/13 [05:07<?, ?it/s]                                        0%|          | 0/13 [05:20<?, ?it/s]                                        0%|          | 0/13 [05:32<?, ?it/s]                                        0%|          | 0/13 [05:44<?, ?it/s]                                        0%|          | 0/13 [05:56<?, ?it/s]                                        0%|          | 0/13 [06:07<?, ?it/s]                                        0%|          | 0/13 [06:18<?, ?it/s]                                        0%|          | 0/13 [06:30<?, ?it/s]                                        0%|          | 0/13 [06:42<?, ?it/s]                                        0%|          | 0/13 [06:53<?, ?it/s]                                        0%|          | 0/13 [07:04<?, ?it/s]                                        0%|          | 0/13 [07:16<?, ?it/s]                                        0%|          | 0/13 [07:32<?, ?it/s]                                        0%|          | 0/13 [07:44<?, ?it/s]                                        0%|          | 0/13 [07:56<?, ?it/s]                                        0%|          | 0/13 [08:07<?, ?it/s]                                        0%|          | 0/13 [08:18<?, ?it/s]                                        0%|          | 0/13 [08:37<?, ?it/s]                                        0%|          | 0/13 [08:49<?, ?it/s]                                        0%|          | 0/13 [09:00<?, ?it/s]                                        0%|          | 0/13 [09:12<?, ?it/s]                                        0%|          | 0/13 [09:29<?, ?it/s]                                        0%|          | 0/13 [09:42<?, ?it/s]                                        0%|          | 0/13 [09:53<?, ?it/s]                                        0%|          | 0/13 [10:05<?, ?it/s]                                        0%|          | 0/13 [10:16<?, ?it/s]                                        0%|          | 0/13 [10:27<?, ?it/s]   	                          fitness                          	           	      
+   	-----------------------------------------------------------	           	      
+gen	min                        	max                        	hypervolume	time  
+0  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	13.746
+1  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.6624
+2  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	13.0721
+3  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.9564
+4  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1421
+5  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.9574
+6  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.0168
+7  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.829 
+8  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	13.0268
+9  	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.6094
+10 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.8501
+11 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.0909
+12 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.5535
+13 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1317
+14 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.9542
+15 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.2976
+16 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1734
+17 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.7063
+18 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.8997
+19 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.8814
+20 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.6765
+21 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	13.0034
+22 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	19.6924
+23 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	16.5654
+24 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.9985
+25 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.8945
+26 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.0052
+27 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1857
+28 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.2547
+29 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.7565
+30 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.8671
+31 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.2553
+32 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1894
+33 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	10.9536
+34 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.4686
+35 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	16.9237
+36 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.6752
+37 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.6009
+38 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.2371
+39 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.3083
+40 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	18.3608
+41 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.9666
+42 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.2473
+43 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.0206
+44 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	17.0822
+45 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	12.4864
+46 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.3436
+47 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.0119
+48 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.2648
+49 	[  0.69281269 -12.        ]	[  0.69281269 -12.        ]	0          	11.1772
+Traceback (most recent call last):
+  File "batch.py", line 53, in <module>
+    pareto.plot_pareto(to_save['pareto'], 'pareto_'+filename, "H.Pylori Pareto Front", xlabel, ylabel, figure_str)
+  File "/mnt/c/Users/Vandan/Documents/NST 3/PartIIIProject/pareto.py", line 184, in plot_pareto
+    plt.clf()
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 686, in clf
+    gcf().clf()
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 601, in gcf
+    return figure()
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python3.5/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python3.5/tkinter/__init__.py", line 1871, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable

@@ -27,71 +27,73 @@ def reduce_graph(graphs):
 			sorted_nodes = gen_sorted_node_list(graph)
 			# for neighbour in neighbours:
 			# print('neighbour',neighbour)
-			print('nodes', nodes)
-			print('accounted_for', accounted_for)
-			print('key_nodes',key_nodes)
-			print('node',node)
-			print('sorted_nodes',sorted_nodes)
+			# print('nodes', nodes)
+			# print('accounted_for', accounted_for)
+			# print('key_nodes',key_nodes)
+			# print('node',node)
+			# print('sorted_nodes',sorted_nodes)
 				# sorted_nodes.remove(neighbour)
 	return key_nodes
+if __name__ == '__main__':
 
-filename = 'new_data/data_hp_succ.json'
 
-data = json.load(open(filename))
+	filename = 'new_data/data_hp_succ.json'
 
-h_p = cobra.io.load_json_model(data['model'])
-data = data['network']
-A = np.array(data['A'])
-beta1 = np.array(data['beta1']).flatten()
-beta2 = np.array(data['beta2']).flatten()
+	data = json.load(open(filename))
 
-print(A)
+	h_p = cobra.io.load_json_model(data['model'])
+	data = data['network']
+	A = np.array(data['A'])
+	beta1 = np.array(data['beta1']).flatten()
+	beta2 = np.array(data['beta2']).flatten()
 
-nodes = 30
+	print(A)
 
-print(np.shape(beta1))
-print(np.shape(beta2))
-print(np.shape(A))
+	nodes = 30
 
-maxes1 = np.argpartition(beta1,-nodes)[-nodes:]
-small1 = A[maxes1][:,maxes1]
-G = nx.from_numpy_matrix(small1)
+	print(np.shape(beta1))
+	print(np.shape(beta2))
+	print(np.shape(A))
 
-graphs = list(nx.connected_component_subgraphs(G))
+	maxes1 = np.argpartition(beta1,-nodes)[-nodes:]
+	small1 = A[maxes1][:,maxes1]
+	G = nx.from_numpy_matrix(small1)
 
-imp_nodes1 = reduce_graph(graphs)
+	graphs = list(nx.connected_component_subgraphs(G))
 
-print(imp_nodes1)
+	imp_nodes1 = reduce_graph(graphs)
 
-node_set = set(imp_nodes1)
+	print(imp_nodes1)
 
-node_colours = [ 'c' if x in node_set else 'r' for x in G.nodes]
+	node_set = set(imp_nodes1)
 
-plt.figure(1)
-nx.draw_kamada_kawai(G,with_labels=True,font_color='k',node_color=node_colours)
+	node_colours = [ 'c' if x in node_set else 'r' for x in G.nodes]
 
-maxes2 = np.argpartition(beta2,-nodes)[-nodes:]
-small2 = A[maxes2][:,maxes2]
-G = nx.from_numpy_matrix(small2)
+	plt.figure(1)
+	nx.draw_kamada_kawai(G,with_labels=True,font_color='k',node_color=node_colours)
 
-graphs = list(nx.connected_component_subgraphs(G))
+	maxes2 = np.argpartition(beta2,-nodes)[-nodes:]
+	small2 = A[maxes2][:,maxes2]
+	G = nx.from_numpy_matrix(small2)
 
-imp_nodes2 = reduce_graph(graphs)
+	graphs = list(nx.connected_component_subgraphs(G))
 
-print(imp_nodes2)
+	imp_nodes2 = reduce_graph(graphs)
 
-node_set = set(imp_nodes2)
+	print(imp_nodes2)
 
-node_colours = [ 'c' if x in node_set else 'r' for x in G.nodes]
+	node_set = set(imp_nodes2)
 
-plt.figure(2)
-nx.draw_kamada_kawai(G,with_labels=True,font_color='k',node_color=node_colours)
+	node_colours = [ 'c' if x in node_set else 'r' for x in G.nodes]
 
-plt.show()
+	plt.figure(2)
+	nx.draw_kamada_kawai(G,with_labels=True,font_color='k',node_color=node_colours)
 
-# for graph in graphs:
-# 	# plt.figure(i)
-# 	# nx.draw_kamada_kawai(graph,with_labels=True,font_color='k')
-# 	i += 1
+	plt.show()
 
-# plt.show()
+	# for graph in graphs:
+	# 	# plt.figure(i)
+	# 	# nx.draw_kamada_kawai(graph,with_labels=True,font_color='k')
+	# 	i += 1
+
+	# plt.show()
