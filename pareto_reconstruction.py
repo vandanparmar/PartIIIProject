@@ -169,6 +169,66 @@ def network_reconstruct(filename,nodes,recon_points,h_p,obj1,obj2,cores=0):
 	return pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x
 
 
+def lin_reconstruct(filename,nodes,recon_points,h_p,obj1,obj2,cores=0):
+	data = json.load(open(filename))
+	network = data['regress']
+	pareto_data = data['pareto']
+	y_plot = np.array(list(map(lambda i : i['obj1'], pareto_data)))
+	x_plot = np.array(list(map(lambda i : i['obj2'], pareto_data)))
+	pareto_genes = np.array(list(map(lambda i : i['gene_set'], pareto_data)))
+
+	bounds = np.array(list(map(lambda reaction : reaction.bounds, h_p.reactions)))
+
+	x0,y0,k1,k2 = kink_finder.get_kink_point(x_plot, y_plot)
+	phase_trans = np.abs(x_plot-x0).argmin()
+
+	beta1 = np.array(network['beta1']).flatten()
+	beta2 = np.array(network['beta2']).flatten()
+
+	maxes1 = np.argpartition(beta1, -nodes)[-nodes:]
+	maxes2 = np.argpartition(beta2, -nodes)[-nodes:]
+
+	n_genes = len(h_p.genes)
+	to_pareto = np.random.uniform(low=0.0, high=2.0, size=(recon_points*2, n_genes))
+	to_pareto_noise = np.random.uniform(low=0.0, high=2.0, size=(recon_points,n_genes))
+
+	indices1 = np.random.random_integers(low=0,high=phase_trans,size=(recon_points,nodes))
+	indices2 = np.random.random_integers(low=phase_trans+1,high=len(x_plot)-1,size=(recon_points,nodes))
+
+	to_set_1 = pareto_genes[indices1,maxes1]
+	to_set_2 = pareto_genes[indices2,maxes2]
+	to_pareto[::2, maxes1] = to_set_1
+	to_pareto[1::2, maxes2] = to_set_2
+
+	pareto_new = eval_pareto(h_p, obj1, obj2, to_pareto,cores)
+
+	for i,x in enumerate(bounds):
+		h_p.reactions[i].bounds = x
+
+	pareto_noise = eval_pareto(h_p,obj1,obj2,to_pareto_noise,cores)
+
+	pareto_left = pareto_new[::2]
+	pareto_right = pareto_new[1::2]
+
+	paretos = prep_fba_set(pareto_left, 'left')
+	paretos.extend(prep_fba_set(pareto_right,'right'))
+	paretos.extend(prep_fba_set(pareto_noise,'noise'))
+
+	pareto_collection = find_optimal(paretos)
+	pareto_y = list(map(lambda x : x[0],pareto_collection))
+	pareto_x = list(map(lambda x : x[1],pareto_collection))
+
+	to_add = {'pareto_left':pareto_left.tolist(),
+		'pareto_right':pareto_right.tolist(),
+		'pareto_noise':pareto_noise.tolist(),
+		'pareto_y':pareto_y,
+		'pareto_x':pareto_x }
+	data['lin_recon'] = to_add
+	with open(filename, 'w') as outfile:
+	    json.dump(data, outfile)
+
+	return pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x
+
 
 def reconstruct(filename,nodes,recon_points,h_p,obj1,obj2,cores=0):
 	data = json.load(open(filename))

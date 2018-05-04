@@ -10,7 +10,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 from deap import tools, base, creator
 
-
 def h(y):
 	# return y
 	return np.power((1+ np.abs(np.log(y))),np.sign(y-1))
@@ -108,7 +107,12 @@ def eval_wrapper(args):
 	return f1,f2
 
 def evaluate(individual,obj1,obj2,model,condts,lb,ub):
+	# print('start eval')
 	this_model = model
+	this_model.solver.configuration.tolerances.optimality = 1e-4
+	this_model.solver.configuration.tolerances.feasibility = 1e-4
+	this_model.solver.configuration.timeout = 10
+	
 	this_model = set_weights(individual,this_model,condts,lb,ub)
 	# print('weights set')
 
@@ -119,7 +123,7 @@ def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 	# print('opt1',flux1)
 
 	if (np.isnan(flux1)):
-		print('nan')
+		# print('nan')
 		return -np.inf,-np.inf
 	else:
 		flux1_constr = this_model.problem.Constraint(obj1,lb=flux1,ub=flux1)
@@ -137,11 +141,13 @@ def evaluate(individual,obj1,obj2,model,condts,lb,ub):
 		# this_model.objective = this_model.problem.Objective(obj2,direction='min')
 		# # print('obj2')
 
+		# print('opt2',flux2)
 
 		# flux3 = this_model.slim_optimize()
 		
 		this_model.remove_cons_vars(flux1_constr)
-		# print('opt2', flux3, flux2)
+		# print(flux1,flux2)
+		# print('end eval')
 		return flux1,flux2
 
 def create_algo_holder(toolbox,model,obj1,obj2,cores):
@@ -154,9 +160,9 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 
 	bounds = np.array(list(map(lambda reaction : reaction.bounds, model.reactions)))
 	lb = bounds[:,0]
-	lb = np.clip(lb, a_min=-np.inf,a_max = np.inf)
+	lb = np.clip(lb, a_min=-100.0,a_max = 100.0)
 	ub = bounds[:,1]
-	ub = np.clip(ub,a_min= -np.inf,  a_max=np.inf)
+	ub = np.clip(ub,a_min= -100.0,  a_max=100.0)
 	gene_dict = {x.id:i for i,x in enumerate(model.genes)}
 	condts = gene_condts(model,gene_dict)
 	#initial max and min gene expressions
@@ -178,20 +184,21 @@ def create_algo_holder(toolbox,model,obj1,obj2,cores):
 	return toolbox
 
 
-def plot_pareto(pareto,filename,title,xlabel,ylabel,figure_str):
+def plot_pareto(pareto,filename,xlabel,ylabel,figure_str):
 	y_plot = np.array(list(map(lambda i : i['obj1'],pareto)))
 	x_plot = np.array(list(map(lambda i : i['obj2'],pareto)))
 	plt.clf()
+	plt.plot(x_plot,y_plot,c='b', label = 'Pareto Points',marker='.',linestyle='None')
 	try:
 		x0,y0,k1,k2 = kink_finder.get_kink_point(x_plot,y_plot)
-		plt.plot(x0,y0,'*',c='r', label = 'Phase Transition Point')
+		x_plot = np.sort(np.append(x_plot,x0))
 		plt.plot(x_plot,kink_finder.piecewise_linear(x_plot,x0,y0,k1,k2),c='lawngreen', label = 'Fitted Line')
+		plt.plot(x0,y0,'*',c='r', label = 'Phase Transition Point')
 	except:
 		print('No Phase Transition')
-	plt.plot(x_plot,y_plot,c='b', label = 'Pareto Points',marker='.',linestyle='None')
+	print(k1,k2)
 	plt.xlabel(xlabel)
 	plt.ylabel(ylabel)
-	plt.title(title)
 	plt.legend()
 	plt.savefig(figure_str+filename+'.png')
 	plt.savefig(figure_str+filename+'.eps')
@@ -256,9 +263,8 @@ def pareto(generations,pop_size,model, obj1, obj2, batch = False,cores=0):
 		#create a list of items without fitnesses
 		invalid_ind = [ind for ind in offspring if not ind.fitness.valid]
 		fitnesses = nsga2_holder.map(nsga2_holder.evaluate, invalid_ind)
-		for ind, fit in zip(invalid_ind, fitnesses):
+		for i,(ind,fit) in enumerate(zip(invalid_ind, fitnesses)):
 			ind.fitness.values = fit
-
 		pop = tools.selNSGA2(pop+offspring,pop_size)
 
 		record = mstats.compile(pop)
@@ -270,15 +276,9 @@ def pareto(generations,pop_size,model, obj1, obj2, batch = False,cores=0):
 		else:
 			batch(logbook.stream)
 
-
 		pareto.update(pop)
 		val = list(zip(*[p.fitness.values for p in pareto]))
 		vals.append(val)
 		pops.append(pop)
 
 	return pops,vals,pareto
-
-
-
-
- 

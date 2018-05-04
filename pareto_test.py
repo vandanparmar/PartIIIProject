@@ -38,18 +38,18 @@ print(obj2)
 # pareto(generations,pop_size,model, obj1, obj2, cores=0)
 
 to_use_obj1 = obj1
-to_use_obj2 = obj2
+to_use_obj2 = obj4
 
-pops, vals, pareto = pareto.pareto(30,500,h_p,to_use_obj1,to_use_obj2)
+pops, vals, pareto = pareto.pareto(10,100,h_p,to_use_obj1,to_use_obj2)
 
 
 
 to_save = {'obj1_str': str(to_use_obj1), 'obj2_str': str(to_use_obj2), 'model' : model_str,'pareto': [{'obj1': p.fitness.values[0], 'obj2':p.fitness.values[1],'gene_set': list(p)} for p in pareto]}
 
-with open('data_hp_succ.json', 'w') as outfile:
-    json.dump(to_save, outfile)
-print('save length')
-print(len(to_save))
+# with open('data_hp_succ.json', 'w') as outfile:
+#     json.dump(to_save, outfile)
+# print('save length')
+# print(len(to_save))
 
 
 
@@ -73,14 +73,13 @@ c_map_i = c_map(c1,c2,0,tot)
 print(tot)
 for i,val in enumerate(vals):
 
-	ax.scatter(val[1],val[0],marker='*',c=c_map_i(i))
+	ax.scatter(val[1],val[0],marker='x',s=3,c=c_map_i(i))
 	ax.plot(val[1],val[0],'r--',linewidth=0.5,c=c_map_i(i))
-fig.savefig('all_pareto_hp_succ.png')
-fig.savefig('all_pareto_hp_succ.eps')
 
-plt.ylabel('$f_1$')
-plt.xlabel('$f_2$')
-plt.title('Pareto')
+plt.ylabel('Biomass')
+plt.xlabel('Oxygen Uptake')
+fig.savefig('all_pareto_hp_acet.png')
+fig.savefig('all_pareto_hp_acet.eps')
 plt.show()
 
 

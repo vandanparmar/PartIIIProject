@@ -22,7 +22,7 @@ def reduce_graph(graphs):
 			key_nodes.append(node)
 			neighbours = set(graph[node].keys())
 			accounted_for.update(neighbours)
-			accounted_for.update([node]	)
+			accounted_for.update([node])
 			graph.remove_node(node)
 			sorted_nodes = gen_sorted_node_list(graph)
 			# for neighbour in neighbours:

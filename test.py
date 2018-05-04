@@ -3,6 +3,7 @@ import json
 import pareto_reconstruction
 from matplotlib import pyplot as plt
 import numpy as np
+from tqdm import tqdm
 
 recon_points = 200
 model_name = 'h_pylori.json'
@@ -20,15 +21,31 @@ obj2_str = 'SUCCt2r'
 obj1 = model.reactions.get_by_id(obj1_str).flux_expression
 obj2 = model.reactions.get_by_id(obj2_str).flux_expression
 
+max_bounds = np.array([-np.inf]*len(model.reactions))
+min_bounds = np.array([np.inf]*len(model.reactions))
+print(dir(model.optimize()))
 
-nodes = 20
-cores = 0
-load_file = 'new_data/data_hp_succ.json'
+for i,reaction in tqdm(enumerate(model.reactions),total= len(model.reactions)):
+	model.objective = model.problem.Objective(reaction.flux_expression,direction='max')
+	nominal_max = model.optimize()
+	loopless_max = cobra.flux_analysis.loopless_solution(model)
+	if loopless_max.status == 'optimal':
+		min_bounds = np.minimum(loopless_max.fluxes,min_bounds)
+		max_bounds = np.maximum(loopless_max.fluxes,max_bounds)
+	model.objective = model.problem.Objective(reaction.flux_expression,direction='min')
+	nominal_min = model.optimize()
+	loopless_min = cobra.flux_analysis.loopless_solution(model)
+	if loopless_min.status == 'optimal':
+		min_bounds = np.minimum(loopless_min.fluxes,min_bounds)
+		max_bounds = np.maximum(loopless_min.fluxes,max_bounds)
+new_bounds = list(zip(min_bounds,max_bounds))
 
-xlabel = 'Succinate Production'
+with open('new_bounds.json','w') as outfile:
+	json.dump({'bounds':new_bounds}, outfile)
 
-figure_save = 'figures/hp_succ_test'
-
+plt.plot(min_bounds,'.')
+plt.plot(max_bounds,'.')
+plt.show()
 # pareto = pareto_reconstruction.origin_reconstruct(load_file, model, obj1, obj2)
 # plt.plot(pareto[:,1],pareto[:,0],'r.')
 # plt.xlabel(xlabel)
@@ -37,36 +54,36 @@ figure_save = 'figures/hp_succ_test'
 # plt.legend()
 # plt.show()
 
-pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x = pareto_reconstruction.network_reconstruct(load_file, nodes, recon_points, model, obj1, obj2,cores=cores)
-plt.figure(1)
-plt.plot(pareto_x,pareto_y,'*',color='k',label='Pareto Optimal')
-plt.plot(pareto_noise[:,1],pareto_noise[:,0],'g.',alpha = 0.8, label='Noise')
-plt.plot(pareto_right[:,1], pareto_right[:,0],'c.',alpha = 0.8, label='Right')
-plt.plot(pareto_left[:,1], pareto_left[:,0],'r.',alpha = 0.8, label='Left')
-plt.xlabel(xlabel)
-plt.ylabel('Biomass Production')
-plt.title('H. Pylori Pareto Front Networked Reconstruction')
-plt.legend()
-plt.savefig('network_recon_'+figure_save+'.png')
-plt.savefig('network_recon_'+figure_save+'.eps')
+# pareto_left,pareto_right,pareto_noise,pareto_y,pareto_x = pareto_reconstruction.network_reconstruct(load_file, nodes, recon_points, model, obj1, obj2,cores=cores)
+# plt.figure(1)
+# plt.plot(pareto_x,pareto_y,'*',color='k',label='Pareto Optimal')
+# plt.plot(pareto_noise[:,1],pareto_noise[:,0],'g.',alpha = 0.8, label='Noise')
+# plt.plot(pareto_right[:,1], pareto_right[:,0],'c.',alpha = 0.8, label='Right')
+# plt.plot(pareto_left[:,1], pareto_left[:,0],'r.',alpha = 0.8, label='Left')
+# plt.xlabel(xlabel)
+# plt.ylabel('Biomass Production')
+# plt.title('H. Pylori Pareto Front Networked Reconstruction')
+# plt.legend()
+# plt.savefig('network_recon_'+figure_save+'.png')
+# plt.savefig('network_recon_'+figure_save+'.eps')
 
-for i,x in enumerate(bounds):
-	model.reactions[i].bounds = x
+# for i,x in enumerate(bounds):
+# 	model.reactions[i].bounds = x
 
 
-pareto_left_2,pareto_right_2,pareto_noise_2,pareto_y_2,pareto_x_2 = pareto_reconstruction.reconstruct(load_file, nodes, recon_points, model, obj1, obj2,cores=cores)
-plt.figure(2)
-plt.plot(pareto_x_2,pareto_y_2,'*',color='k',label='Pareto Optimal')
-plt.plot(pareto_noise_2[:,1],pareto_noise_2[:,0],'g.',alpha = 0.8, label='Noise')
-plt.plot(pareto_right_2[:,1], pareto_right_2[:,0],'c.',alpha = 0.8, label='Right')
-plt.plot(pareto_left_2[:,1], pareto_left_2[:,0],'r.',alpha = 0.8, label='Left')
-plt.xlabel(xlabel)
-plt.ylabel('Biomass Production')
-plt.title('H. Pylori Pareto Front Reconstruction')
-plt.legend()
-plt.savefig('recon_'+figure_save+'.png')
-plt.savefig('recon_'+figure_save+'.eps')
-plt.show()	
+# pareto_left_2,pareto_right_2,pareto_noise_2,pareto_y_2,pareto_x_2 = pareto_reconstruction.reconstruct(load_file, nodes, recon_points, model, obj1, obj2,cores=cores)
+# plt.figure(2)
+# plt.plot(pareto_x_2,pareto_y_2,'*',color='k',label='Pareto Optimal')
+# plt.plot(pareto_noise_2[:,1],pareto_noise_2[:,0],'g.',alpha = 0.8, label='Noise')
+# plt.plot(pareto_right_2[:,1], pareto_right_2[:,0],'c.',alpha = 0.8, label='Right')
+# plt.plot(pareto_left_2[:,1], pareto_left_2[:,0],'r.',alpha = 0.8, label='Left')
+# plt.xlabel(xlabel)
+# plt.ylabel('Biomass Production')
+# plt.title('H. Pylori Pareto Front Reconstruction')
+# plt.legend()
+# plt.savefig('recon_'+figure_save+'.png')
+# plt.savefig('recon_'+figure_save+'.eps')
+# plt.show()	
 
 
 
